@@ -44,6 +44,9 @@ SourceArt/**/*.tga
 # Binary Files
 Binaries/*
 
+# Content (use Perforce)
+Content/*
+
 # Builds
 Build/*
 
