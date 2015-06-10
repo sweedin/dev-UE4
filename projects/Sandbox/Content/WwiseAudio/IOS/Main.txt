@@ -1,8 +1,0 @@
-Event	ID	Name			Wwise Object Path	Notes
-	4011858643	TestStart			\Default Work Unit\TestStart	
-
-In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	532961821	Test_MIDI	C:\Users\Media\Documents\Unreal Projects\Sandbox\SandboxWwise\.cache\iOS\SFX\Test_MIDI_00000000.wem		\Interactive Music Hierarchy\Default Work Unit\Test_MIDI\Test_MIDI\Test_MIDI		26719
-	791013214	Ghost_MIDI	C:\Users\Media\Documents\Unreal Projects\Sandbox\SandboxWwise\.cache\iOS\SFX\Ghost_MIDI_DDC98EF4.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ghost_MIDI		570980
-	960037418	Test	C:\Users\Media\Documents\Unreal Projects\Sandbox\SandboxWwise\.cache\iOS\SFX\Test_8BD76F1E.wem		\Actor-Mixer Hierarchy\Default Work Unit\Test		27519448
-
