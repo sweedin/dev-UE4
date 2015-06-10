@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\Sandbox.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{302803CA-8349-411E-B866-87D41693E125}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Sandbox.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\SandboxEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{8B69583A-DED8-4EDA-BDC8-801D2260901B}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\Sandbox">
+			<UniqueIdentifier>{85C5E1C9-3446-472E-8E3E-CF87BDB93E24}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\Sandbox\CallbackListener.cpp">
+			<Filter>Source\Sandbox</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Sandbox\CallbackListener.h">
+			<Filter>Source\Sandbox</Filter>
+		</ClInclude >
+		<None Include="..\..\Source\Sandbox\Sandbox.Build.cs">
+			<Filter>Source\Sandbox</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\Sandbox\Sandbox.cpp">
+			<Filter>Source\Sandbox</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Sandbox\Sandbox.h">
+			<Filter>Source\Sandbox</Filter>
+		</ClInclude >
+		<Filter Include="Source\Sandbox\Resources">
+			<UniqueIdentifier>{0116CFD7-8FF9-44F0-8233-C986F9D53E36}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Source\Sandbox\Resources\Windows">
+			<UniqueIdentifier>{ADED416E-1773-4BD9-8148-84CB18AC9A51}</UniqueIdentifier>
+		</Filter>
+		<ResourceCompile Include="..\..\Source\Sandbox\Resources\Windows\Sandbox.rc">
+			<Filter>Source\Sandbox\Resources\Windows</Filter>
+		</ResourceCompile >
+	</ItemGroup>
+</Project>

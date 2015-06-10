@@ -1,0 +1,10 @@
+﻿Build started 5/25/2015 9:49:13 PM.
+     1>Project "C:\Users\Media\Documents\Unreal Projects\Sandbox\Intermediate\ProjectFiles\Sandbox.vcxproj" on node 2 (Build target(s)).
+     1>Build:
+         C:\Users\Media\Documents\GitHub\UnrealEngine\Engine\Build\BatchFiles\Build.bat SandboxEditor Win64 Development "C:\Users\Media\Documents\Unreal Projects\Sandbox\Sandbox.uproject"
+         Target is up to date.
+     1>Done Building Project "C:\Users\Media\Documents\Unreal Projects\Sandbox\Intermediate\ProjectFiles\Sandbox.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:37.57

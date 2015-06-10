@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationCache Version="1" SchemaVersion="69">
+	<ValidationCacheItem File="C:\Users\Media\Documents\Unreal Projects\Sandbox\SandboxWwise\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="2203296037" DateHigh="30444987"/>
+	<ValidationCacheItem File="C:\Users\Media\Documents\Unreal Projects\Sandbox\SandboxWwise\Attenuations\Default Work Unit.wwu" DateLow="1049366100" DateHigh="30444982"/>
+	<ValidationCacheItem File="C:\Users\Media\Documents\Unreal Projects\Sandbox\SandboxWwise\Control Surface Sessions\Default Work Unit.wwu" DateLow="1049436150" DateHigh="30444982"/>
+	<ValidationCacheItem File="C:\Users\Media\Documents\Unreal Projects\Sandbox\SandboxWwise\Conversion Settings\Default Work Unit.wwu" DateLow="1049586251" DateHigh="30444982"/>
+	<ValidationCacheItem File="C:\Users\Media\Documents\Unreal Projects\Sandbox\SandboxWwise\Conversion Settings\Factory Conversion Settings.wwu" DateLow="3896057600" DateHigh="30419400"/>
+	<ValidationCacheItem File="C:\Users\Media\Documents\Unreal Projects\Sandbox\SandboxWwise\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1049556333" DateHigh="30444982"/>
+	<ValidationCacheItem File="C:\Users\Media\Documents\Unreal Projects\Sandbox\SandboxWwise\Effects\Default Work Unit.wwu" DateLow="1049236002" DateHigh="30444982"/>
+	<ValidationCacheItem File="C:\Users\Media\Documents\Unreal Projects\Sandbox\SandboxWwise\Effects\Factory Effects.wwu" DateLow="3896057600" DateHigh="30419400"/>
+	<ValidationCacheItem File="C:\Users\Media\Documents\Unreal Projects\Sandbox\SandboxWwise\Events\Default Work Unit.wwu" DateLow="2203235995" DateHigh="30444987"/>
+	<ValidationCacheItem File="C:\Users\Media\Documents\Unreal Projects\Sandbox\SandboxWwise\Game Parameters\Default Work Unit.wwu" DateLow="1049195973" DateHigh="30444982"/>
+	<ValidationCacheItem File="C:\Users\Media\Documents\Unreal Projects\Sandbox\SandboxWwise\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1202505746" DateHigh="30447477"/>
+	<ValidationCacheItem File="C:\Users\Media\Documents\Unreal Projects\Sandbox\SandboxWwise\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1049085895" DateHigh="30444982"/>
+	<ValidationCacheItem File="C:\Users\Media\Documents\Unreal Projects\Sandbox\SandboxWwise\Mixing Sessions\Default Work Unit.wwu" DateLow="1049396131" DateHigh="30444982"/>
+	<ValidationCacheItem File="C:\Users\Media\Documents\Unreal Projects\Sandbox\SandboxWwise\Modulators\Default Work Unit.wwu" DateLow="1049496187" DateHigh="30444982"/>
+	<ValidationCacheItem File="C:\Users\Media\Documents\Unreal Projects\Sandbox\SandboxWwise\Presets\Default Work Unit.wwu" DateLow="1049526316" DateHigh="30444982"/>
+	<ValidationCacheItem File="C:\Users\Media\Documents\Unreal Projects\Sandbox\SandboxWwise\Queries\Default Work Unit.wwu" DateLow="1049306052" DateHigh="30444982"/>
+	<ValidationCacheItem File="C:\Users\Media\Documents\Unreal Projects\Sandbox\SandboxWwise\Queries\Factory Queries.wwu" DateLow="3896057600" DateHigh="30419400"/>
+	<ValidationCacheItem File="C:\Users\Media\Documents\Unreal Projects\Sandbox\SandboxWwise\SandboxWwise.Media.wsettings" DateLow="4133949949" DateHigh="30445066"/>
+	<ValidationCacheItem File="C:\Users\Media\Documents\Unreal Projects\Sandbox\SandboxWwise\SandboxWwise.wproj" DateLow="3161961222" DateHigh="30445005"/>
+	<ValidationCacheItem File="C:\Users\Media\Documents\Unreal Projects\Sandbox\SandboxWwise\SoundBanks\Default Work Unit.wwu" DateLow="2386205987" DateHigh="30444987"/>
+	<ValidationCacheItem File="C:\Users\Media\Documents\Unreal Projects\Sandbox\SandboxWwise\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1049616278" DateHigh="30444982"/>
+	<ValidationCacheItem File="C:\Users\Media\Documents\Unreal Projects\Sandbox\SandboxWwise\States\Default Work Unit.wwu" DateLow="1049045872" DateHigh="30444982"/>
+	<ValidationCacheItem File="C:\Users\Media\Documents\Unreal Projects\Sandbox\SandboxWwise\Switches\Default Work Unit.wwu" DateLow="1049005848" DateHigh="30444982"/>
+	<ValidationCacheItem File="C:\Users\Media\Documents\Unreal Projects\Sandbox\SandboxWwise\Triggers\Default Work Unit.wwu" DateLow="1049336073" DateHigh="30444982"/>
+</ValidationCache>

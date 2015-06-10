@@ -1,0 +1,1977 @@
+﻿Log file open, 05/25/15 21:50:12
+LogInit:Display: Running engine for game: Sandbox
+LogInit: Version: 4.7.3-0+++depot+UE4-Releases+4.7
+LogInit: API Version: 0
+LogInit: Compiled (64-bit): Apr 29 2015 23:12:51
+LogInit: Compiled with Visual C++: 18.00.30723.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.7
+LogInit: Command line: 
+LogInit: Base directory: C:/Users/Media/Documents/GitHub/UnrealEngine/Engine/Binaries/Win64/
+LogInit: Rocket: 0
+[2015.05.26-04.50.12:708][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.05.26-04.50.12:775][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.05.26-04.50.13:049][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.05.26-04.50.13:059][  0]LogInit: Object subsystem initialized
+[2015.05.26-04.50.13:062][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.05.26-04.50.13:062][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Media/Documents/Unreal Projects/Sandbox/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.05.26-04.50.13:062][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.05.26-04.50.13:063][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Media/Documents/Unreal Projects/Sandbox/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.05.26-04.50.13:063][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.05.26-04.50.13:064][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Media/Documents/Unreal Projects/Sandbox/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.05.26-04.50.13:064][  0]LogInit: Selected Device Profile: [Windows]
+[2015.05.26-04.50.13:065][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.05.26-04.50.13:075][  0]LogInit: Computer: TEAMATMOS
+[2015.05.26-04.50.13:075][  0]LogInit: User: Media
+[2015.05.26-04.50.13:076][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.05.26-04.50.13:076][  0]LogInit: High frequency timer resolution =1.948611 MHz
+[2015.05.26-04.50.13:076][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx) Virtual=131072.0GB
+[2015.05.26-04.50.13:077][  0]LogMemory: Platform Memory Stats for Windows
+[2015.05.26-04.50.13:077][  0]LogMemory: Process Physical Memory: 46.00 MB used, 46.00 MB peak
+[2015.05.26-04.50.13:077][  0]LogMemory: Process Virtual Memory: 26.58 MB used, 26.59 MB peak
+[2015.05.26-04.50.13:078][  0]LogMemory: Physical Memory: 4573.59 MB used, 8112.09 MB total
+[2015.05.26-04.50.13:078][  0]LogMemory: Virtual Memory: 293.66 MB used, 134217728.00 MB total
+[2015.05.26-04.50.13:395][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) Iris(TM) Pro Graphics 5200 (Feature Level 11_0)
+[2015.05.26-04.50.13:395][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 1792MB of shared system memory, 1 output[s]
+[2015.05.26-04.50.13:436][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.05.26-04.50.13:436][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.05.26-04.50.13:437][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.05.26-04.50.13:441][  0]LogRHI: Texture pool is 627 MB (70% of 896 MB)
+[2015.05.26-04.50.13:454][  0]LogD3D11RHI: Async texture creation enabled
+[2015.05.26-04.50.14:168][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.05.26-04.50.14:235][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Resource: (C:/Users/Media/Documents/GitHub/UnrealEngine/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-630476809) String: (Import to {0}...)
+Resource: (C:/Users/Media/Documents/GitHub/UnrealEngine/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (1271782899) String: (Imports an asset from file to this folder.)
+[2015.05.26-04.50.14:319][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.05.26-04.50.18:847][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.26-04.50.20:946][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.26-04.50.21:128][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.05.26-04.50.21:533][  0]LogDerivedDataCache: Loaded boot cache 0.39s 39MB ../../../../../Unreal Projects/Sandbox/DerivedDataCache/Boot.ddc.
+[2015.05.26-04.50.21:534][  0]LogDerivedDataCache:Display: Loaded Boot cache: ../../../../../Unreal Projects/Sandbox/DerivedDataCache/Boot.ddc
+[2015.05.26-04.50.21:534][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Unreal Projects/Sandbox/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.05.26-04.50.21:535][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.05.26-04.50.21:554][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnginePak pak cache file ../../../Engine/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.05.26-04.50.21:554][  0]LogDerivedDataCache: Unable to find inner node EnginePak for hierarchical cache Hierarchy.
+[2015.05.26-04.50.21:567][  0]LogDerivedDataCache: Using Local data cache path ../../../Engine/DerivedDataCache: Writable
+[2015.05.26-04.50.21:567][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2015.05.26-04.50.21:568][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2015.05.26-04.50.27:103][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.05.26-04.50.27:104][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.05.26-04.50.33:282][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.05.26-04.50.33:834][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.05.26-04.50.57:952][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.05.26-04.51.00:281][  0]SourceControl: Info Source control is disabled
+[2015.05.26-04.51.00:282][  0]SourceControl: Info Source control is disabled
+[2015.05.26-04.51.00:283][  0]SourceControl: Info Source control is disabled
+[2015.05.26-04.51.00:283][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.05.26-04.51.00:284][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.05.26-04.51.00:302][  0]SourceControl: Info Source control is disabled
+[2015.05.26-04.51.02:850][  0]LogObj: 24396 objects as part of root set at end of initial load.
+[2015.05.26-04.51.02:850][  0]LogUObjectAllocator: 5165152 out of 0 bytes used by permanent object pool.
+[2015.05.26-04.51.03:336][  0]LogEngine: Initializing Engine...
+[2015.05.26-04.51.07:064][  0]LogAkAudio: Wwise(R) SDK Version 2014.1.4 Build 5248. Copyright (c) 2006-2014 Audiokinetic Inc.
+[2015.05.26-04.51.07:226][  0]LogInit: Audiokinetic Audio Device setting bank directory to ../../../../../Unreal Projects/Sandbox/Content/WwiseAudio/Windows/.
+[2015.05.26-04.51.07:295][  0]LogInit: Audiokinetic Audio Device initialized.
+[2015.05.26-04.51.07:455][  0]LogInit: XAudio2 using 'Speakers (VIA HD Audio(Win8.1))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.05.26-04.51.07:474][  0]LogInit: FAudioDevice initialized.
+[2015.05.26-04.51.07:475][  0]LogAkAudio: SoundFrame successfully connected.
+[2015.05.26-04.51.07:670][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.05.26-04.51.07:692][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB ../../../../../Unreal Projects/Sandbox/DerivedDataCache/Boot.ddc.
+[2015.05.26-04.51.07:695][  0]LogInit: Texture streaming: Enabled
+[2015.05.26-04.51.09:562][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.05.26-04.51.09:562][  0]LogAnalytics: ET APIKey = UnrealEngine.Release. APIServer = http://etsource.epicgames.com/ET2/. AppVersion = 4.7.3-0+++depot+UE4-Releases+4.7
+[2015.05.26-04.51.09:563][  0]LogAnalytics: SetUserId a2b60a6d42accd8f46ab6c95a1918d79|d46e0b98427e49f3b199f2f9bc7afa81|a0804158-0ca6-4372-bf68-feac2e24e086
+[2015.05.26-04.51.09:564][  0]LogAnalytics: AnalyticsET::StartSession [UnrealEngine.Release]
+[2015.05.26-04.51.09:722][  0]LogInit: Transaction tracking system initialized
+[2015.05.26-04.51.11:380][  0]BlueprintLog: New page: Editor Load
+[2015.05.26-04.51.11:508][  0]LogAssetRegistry: FAssetRegistry took 0.0113 seconds to start up
+[2015.05.26-04.51.11:509][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.05.26-04.51.14:699][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.26-04.51.15:228][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.26-04.51.18:889][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2015.05.26-04.51.18:891][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2015.05.26-04.51.19:073][  0]LogConsoleResponse:Display: 
+[2015.05.26-04.51.22:072][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.05.26-04.51.23:594][  0]SourceControl: Info Source control is disabled
+[2015.05.26-04.51.23:595][  0]Cmd: MAP LOAD FILE="../../../../../Unreal Projects/Sandbox/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.05.26-04.51.23:614][  0]LightingResults: New page: Lighting Build
+[2015.05.26-04.51.23:636][  0]MapCheck: New page: Map Check
+[2015.05.26-04.51.23:637][  0]LightingResults: New page: Lighting Build
+[2015.05.26-04.51.23:644][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003A76B9A8E0
+[2015.05.26-04.51.28:846][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.05.26-04.51.28:847][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.05.26-04.51.28:848][  0]Cmd: MAP CHECKDEP
+[2015.05.26-04.51.28:849][  0]MapCheck: New page: Minimal_Default - May 25, 2015, 2:51:28 PM
+[2015.05.26-04.51.29:061][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 212.278ms to complete.
+[2015.05.26-04.51.29:062][  0]LogFileHelpers: Loading map 'Minimal_Default' took 5.467
+[2015.05.26-04.51.29:568][  0]LogCollectionManager: Loaded 0 collections in 0.002297 seconds
+[2015.05.26-04.51.29:589][  0]LogContentBrowser: Native class hierarchy populated in 0.0205 seconds. Added 1727 classes and 267 folders.
+[2015.05.26-04.51.29:620][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2015.05.26-04.51.29:862][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0111 seconds. Added 1 classes and 2 folders.
+[2015.05.26-04.51.30:611][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.05.26-04.51.30:614][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2015.05.26-04.51.30:633][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.05.26-04.51.30:682][  0]LogLoad: Full Startup: 82.09 seconds (BP compile: 0.32 seconds)
+[2015.05.26-04.51.31:708][  0]LogAkAudio: StopAll API called
+[2015.05.26-04.51.31:708][  0]LogAkAudio: StopAll API called
+[2015.05.26-04.51.31:709][  0]LogAkAudio: StopAll API called
+[2015.05.26-04.51.32:143][  0]LogRenderer:Warning: Reallocating scene render targets to support 1168x600 (Frame:2).
+[2015.05.26-04.51.34:918][  4]LogAssetRegistry: Asset discovery search completed in 23.4212 seconds
+[2015.05.26-04.51.35:250][  5]AssetReimport: New page: Outstanding source content changes 2:51:35 PM
+[2015.05.26-04.55.08:995][920]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Chair)
+[2015.05.26-04.55.10:768][  0]Cmd: DELETE
+[2015.05.26-04.55.10:768][  0]Cmd: ACTOR DELETE
+[2015.05.26-04.55.10:770][  0]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.05.26-04.55.10:794][  0]LogEditorActor: Deleted 1 Actors (0.024 secs)
+[2015.05.26-04.55.11:401][ 51]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Chair)
+[2015.05.26-04.55.11:693][ 72]Cmd: DELETE
+[2015.05.26-04.55.11:693][ 72]Cmd: ACTOR DELETE
+[2015.05.26-04.55.11:695][ 72]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.05.26-04.55.11:708][ 72]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2015.05.26-04.55.15:026][332]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Table)
+[2015.05.26-04.55.15:924][395]Cmd: DELETE
+[2015.05.26-04.55.15:925][395]Cmd: ACTOR DELETE
+[2015.05.26-04.55.15:927][395]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.05.26-04.55.15:943][395]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2015.05.26-04.55.16:682][457]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Statue)
+[2015.05.26-04.55.17:064][460]Cmd: DELETE
+[2015.05.26-04.55.17:065][460]Cmd: ACTOR DELETE
+[2015.05.26-04.55.17:067][460]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.05.26-04.55.17:079][460]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2015.05.26-04.55.24:055][ 54]MapCheck: New page: Map Check
+[2015.05.26-04.55.24:078][ 54]LightingResults: New page: Lighting Build - May 25, 2015, 2:55:24 PM
+[2015.05.26-04.55.49:685][ 54]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2015.05.26-04.55.49:686][ 54]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2015.05.26-04.55.49:686][ 54]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2015.05.26-04.55.49:686][ 54]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2015.05.26-04.55.49:687][ 54]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2015.05.26-04.55.49:687][ 54]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2015.05.26-04.55.50:018][ 54]LogEditorBuildUtils: Build time 0:00:25
+[2015.05.26-04.55.54:317][ 58]Job has failed! Job executable didn't exit cleanly. Exit code: 1
+[2015.05.26-04.59.01:297][880]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.05.26-04.59.01:887][905]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.05.26-04.59.05:258][147]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.05.26-04.59.08:929][424]Cmd: DELETE
+[2015.05.26-04.59.08:930][424]Cmd: ACTOR DELETE
+[2015.05.26-04.59.08:932][424]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.05.26-04.59.08:946][424]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2015.05.26-04.59.09:416][461]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.05.26-05.00.00:106][971]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.05.26-05.00.00:660][  7]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2015.05.26-05.00.15:552][135]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.05.26-05.00.23:339][700]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.05.26-05.00.28:878][108]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.05.26-05.00.36:296][673]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.05.26-05.00.42:125][ 98]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.05.26-05.00.42:351][114]Cmd: TRANSACTION UNDO
+[2015.05.26-05.00.42:352][114]LogEditorTransaction: Undo Move Actors
+[2015.05.26-05.00.42:777][132]Cmd: TRANSACTION UNDO
+[2015.05.26-05.00.42:777][132]LogEditorTransaction: Undo Move Actors
+[2015.05.26-05.00.46:357][397]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.05.26-05.00.50:972][750]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.05.26-05.00.54:986][ 56]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.05.26-05.01.03:414][698]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.26-05.01.03:415][698]PIE: New page: PIE session: Minimal_Default (May 25, 2015, 3:01:03 PM)
+[2015.05.26-05.01.03:423][698]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006807s)
+[2015.05.26-05.01.03:426][698]LogPlayLevel: PIE: World Init took: (0.002419s)
+[2015.05.26-05.01.03:427][698]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.010692s)
+[2015.05.26-05.01.03:586][698]LogWorld: Game class is 'SandboxMode_C'
+[2015.05.26-05.01.03:590][698]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.05.26-05.01.03:598][698]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.05.25-22.01.03
+[2015.05.26-05.01.03:599][698]LogWorld: Bringing up level for play took: 0.007885
+[2015.05.26-05.01.03:604][698]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.188
+[2015.05.26-05.01.03:605][698]LogScript:Warning: Accessed None 'MidiData'
+	MIDILightIntensity_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.MIDILightIntensity_C_0
+	Function /Game/MIDILightIntensity.MIDILightIntensity_C:ExecuteUbergraph_MIDILightIntensity:00A6
+[2015.05.26-05.01.03:605][698]PIE:Error: Error Accessed None 'MidiData' from node Construction Script in blueprint MIDILightIntensity
+[2015.05.26-05.01.03:767][699]LogAkAudio: StopAll API called
+[2015.05.26-05.01.03:767][699]LogAkAudio: StopAll API called
+[2015.05.26-05.01.06:319][981]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003A739EC7C0
+[2015.05.26-05.01.06:348][982]LogAkAudio: StopAll API called
+[2015.05.26-05.01.06:349][982]LogAkAudio: StopAll API called
+[2015.05.26-05.01.06:350][982]LogAkAudio: StopAll API called
+[2015.05.26-05.01.06:350][982]LogAkAudio: StopAll API called
+[2015.05.26-05.01.20:701][ 70]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.05.26-05.01.22:184][180]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.05.26-05.01.28:345][623]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.26-05.01.28:345][623]PIE: New page: PIE session: Minimal_Default (May 25, 2015, 3:01:28 PM)
+[2015.05.26-05.01.28:353][623]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006901s)
+[2015.05.26-05.01.28:355][623]LogPlayLevel: PIE: World Init took: (0.000944s)
+[2015.05.26-05.01.28:356][623]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.009340s)
+[2015.05.26-05.01.28:393][623]LogWorld: Game class is 'SandboxMode_C'
+[2015.05.26-05.01.28:397][623]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.05.26-05.01.28:408][623]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.05.25-22.01.28
+[2015.05.26-05.01.28:410][623]LogWorld: Bringing up level for play took: 0.011301
+[2015.05.26-05.01.28:416][623]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.624
+[2015.05.26-05.01.28:417][623]LogScript:Warning: Accessed None 'MidiData'
+	MIDILightIntensity_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.MIDILightIntensity_C_0
+	Function /Game/MIDILightIntensity.MIDILightIntensity_C:ExecuteUbergraph_MIDILightIntensity:00A6
+[2015.05.26-05.01.28:418][623]PIE:Error: Error Accessed None 'MidiData' from node Construction Script in blueprint MIDILightIntensity
+[2015.05.26-05.01.28:498][624]LogAkAudio: StopAll API called
+[2015.05.26-05.01.28:499][624]LogAkAudio: StopAll API called
+[2015.05.26-05.01.30:383][836]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003A6FFFF1A0
+[2015.05.26-05.01.30:408][837]LogAkAudio: StopAll API called
+[2015.05.26-05.01.30:409][837]LogAkAudio: StopAll API called
+[2015.05.26-05.01.30:409][837]LogAkAudio: StopAll API called
+[2015.05.26-05.01.30:410][837]LogAkAudio: StopAll API called
+[2015.05.26-05.01.39:029][454]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.05.26-05.01.42:246][698]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.05.26-05.01.43:582][797]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.05.26-05.01.44:964][854]LogSavePackage: Save=126.147804ms
+[2015.05.26-05.01.44:965][854]LogSavePackage: Moving '../../../../../Unreal Projects/Sandbox/Saved/Minimal_Default_Auto1399293744672C892ECC487BD188B277F.tmp' to '../../../../../Unreal Projects/Sandbox/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto1.umap'
+[2015.05.26-05.01.45:104][854]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.579
+[2015.05.26-05.01.45:104][854]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.579
+[2015.05.26-05.01.53:778][512]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.05.26-05.02.02:634][191]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.05.26-05.02.08:538][645]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.05.26-05.02.11:242][848]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.26-05.02.11:243][848]PIE: New page: PIE session: Minimal_Default (May 25, 2015, 3:02:11 PM)
+[2015.05.26-05.02.11:252][848]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007670s)
+[2015.05.26-05.02.11:255][848]LogPlayLevel: PIE: World Init took: (0.002525s)
+[2015.05.26-05.02.11:256][848]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.011750s)
+[2015.05.26-05.02.11:290][848]LogWorld: Game class is 'SandboxMode_C'
+[2015.05.26-05.02.11:294][848]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.05.26-05.02.11:304][848]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.05.25-22.02.11
+[2015.05.26-05.02.11:306][848]LogWorld: Bringing up level for play took: 0.011262
+[2015.05.26-05.02.11:312][848]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.48
+[2015.05.26-05.02.11:313][848]LogScript:Warning: Accessed None 'MidiData'
+	MIDILightIntensity_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.MIDILightIntensity_C_0
+	Function /Game/MIDILightIntensity.MIDILightIntensity_C:ExecuteUbergraph_MIDILightIntensity:00A6
+[2015.05.26-05.02.11:314][848]PIE:Error: Error Accessed None 'MidiData' from node Construction Script in blueprint MIDILightIntensity
+[2015.05.26-05.02.11:391][849]LogAkAudio: StopAll API called
+[2015.05.26-05.02.11:392][849]LogAkAudio: StopAll API called
+[2015.05.26-05.02.12:881][ 12]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003A6FDE8C20
+[2015.05.26-05.02.12:910][ 13]LogAkAudio: StopAll API called
+[2015.05.26-05.02.12:911][ 13]LogAkAudio: StopAll API called
+[2015.05.26-05.02.12:912][ 13]LogAkAudio: StopAll API called
+[2015.05.26-05.02.12:912][ 13]LogAkAudio: StopAll API called
+[2015.05.26-05.02.19:457][504]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.05.26-05.02.43:515][407]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.05.26-05.02.55:034][ 86]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2015.05.26-05.02.55:235][ 96]Cmd: TRANSACTION UNDO
+[2015.05.26-05.02.55:235][ 96]LogEditorTransaction: Undo Clicking on Actors
+[2015.05.26-05.02.56:978][185]Cmd: TRANSACTION UNDO
+[2015.05.26-05.02.56:979][185]LogEditorTransaction: Undo Set actor location
+[2015.05.26-05.03.10:900][ 12]Cmd: TRANSACTION UNDO
+[2015.05.26-05.03.10:901][ 12]LogEditorTransaction: Undo Set actor location
+[2015.05.26-05.03.17:713][396]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2015.05.26-05.03.41:526][815]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.05.26-05.03.46:675][121]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.26-05.03.46:676][121]PIE: New page: PIE session: Minimal_Default (May 25, 2015, 3:03:46 PM)
+[2015.05.26-05.03.46:687][121]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009953s)
+[2015.05.26-05.03.46:688][121]LogPlayLevel: PIE: World Init took: (0.000674s)
+[2015.05.26-05.03.46:688][121]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.011643s)
+[2015.05.26-05.03.46:725][121]LogWorld: Game class is 'SandboxMode_C'
+[2015.05.26-05.03.46:729][121]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.05.26-05.03.46:737][121]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2015.05.25-22.03.46
+[2015.05.26-05.03.46:739][121]LogWorld: Bringing up level for play took: 0.008915
+[2015.05.26-05.03.46:743][121]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.952
+[2015.05.26-05.03.46:744][121]LogScript:Warning: Accessed None 'MidiData'
+	MIDILightIntensity_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.MIDILightIntensity_C_0
+	Function /Game/MIDILightIntensity.MIDILightIntensity_C:ExecuteUbergraph_MIDILightIntensity:00A6
+[2015.05.26-05.03.46:745][121]PIE:Error: Error Accessed None 'MidiData' from node Construction Script in blueprint MIDILightIntensity
+[2015.05.26-05.03.46:833][122]LogAkAudio: StopAll API called
+[2015.05.26-05.03.46:833][122]LogAkAudio: StopAll API called
+[2015.05.26-05.03.49:708][292]LogAkAudio:Error: Event ID not found: 4011858643
+[2015.05.26-05.03.49:709][292]LogAkAudio:Error: Failed posting event: TestStart
+[2015.05.26-05.03.50:905][361]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003A6FCD8360
+[2015.05.26-05.03.50:940][363]LogAkAudio: StopAll API called
+[2015.05.26-05.03.50:941][363]LogAkAudio: StopAll API called
+[2015.05.26-05.03.50:941][363]LogAkAudio: StopAll API called
+[2015.05.26-05.03.50:942][363]LogAkAudio: StopAll API called
+[2015.05.26-05.04.47:389][255]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.26-05.04.47:389][255]PIE: New page: PIE session: Minimal_Default (May 25, 2015, 3:04:47 PM)
+[2015.05.26-05.04.47:395][255]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005122s)
+[2015.05.26-05.04.47:398][255]LogPlayLevel: PIE: World Init took: (0.002021s)
+[2015.05.26-05.04.47:398][255]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.008218s)
+[2015.05.26-05.04.47:429][255]LogWorld: Game class is 'SandboxMode_C'
+[2015.05.26-05.04.47:432][255]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.05.26-05.04.47:440][255]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2015.05.25-22.04.47
+[2015.05.26-05.04.47:442][255]LogWorld: Bringing up level for play took: 0.008278
+[2015.05.26-05.04.47:446][255]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.346
+[2015.05.26-05.04.47:447][255]LogScript:Warning: Accessed None 'MidiData'
+	MIDILightIntensity_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.MIDILightIntensity_C_0
+	Function /Game/MIDILightIntensity.MIDILightIntensity_C:ExecuteUbergraph_MIDILightIntensity:00A6
+[2015.05.26-05.04.47:447][255]PIE:Error: Error Accessed None 'MidiData' from node Construction Script in blueprint MIDILightIntensity
+[2015.05.26-05.04.47:517][256]LogAkAudio: StopAll API called
+[2015.05.26-05.04.47:518][256]LogAkAudio: StopAll API called
+[2015.05.26-05.04.50:386][428]LogAkAudio:Error: Event ID not found: 4011858643
+[2015.05.26-05.04.50:387][428]LogAkAudio:Error: Failed posting event: TestStart
+[2015.05.26-05.04.52:143][530]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003A6FFFFBA0
+[2015.05.26-05.04.52:178][532]LogAkAudio: StopAll API called
+[2015.05.26-05.04.52:179][532]LogAkAudio: StopAll API called
+[2015.05.26-05.04.52:179][532]LogAkAudio: StopAll API called
+[2015.05.26-05.04.52:180][532]LogAkAudio: StopAll API called
+[2015.05.26-05.05.32:051][891]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.26-05.05.32:051][891]PIE: New page: PIE session: Minimal_Default (May 25, 2015, 3:05:32 PM)
+[2015.05.26-05.05.32:057][891]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004886s)
+[2015.05.26-05.05.32:058][891]LogPlayLevel: PIE: World Init took: (0.000808s)
+[2015.05.26-05.05.32:059][891]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.006691s)
+[2015.05.26-05.05.32:094][891]LogWorld: Game class is 'SandboxMode_C'
+[2015.05.26-05.05.32:098][891]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.05.26-05.05.32:106][891]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2015.05.25-22.05.32
+[2015.05.26-05.05.32:107][891]LogWorld: Bringing up level for play took: 0.007776
+[2015.05.26-05.05.32:111][891]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.319
+[2015.05.26-05.05.32:111][891]LogScript:Warning: Accessed None 'MidiData'
+	MIDILightIntensity_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.MIDILightIntensity_C_0
+	Function /Game/MIDILightIntensity.MIDILightIntensity_C:ExecuteUbergraph_MIDILightIntensity:00A6
+[2015.05.26-05.05.32:112][891]PIE:Error: Error Accessed None 'MidiData' from node Construction Script in blueprint MIDILightIntensity
+[2015.05.26-05.05.32:170][892]LogAkAudio: StopAll API called
+[2015.05.26-05.05.32:171][892]LogAkAudio: StopAll API called
+[2015.05.26-05.05.35:047][ 62]LogAkAudio:Error: Event ID not found: 4011858643
+[2015.05.26-05.05.35:048][ 62]LogAkAudio:Error: Failed posting event: TestStart
+[2015.05.26-05.05.35:722][ 99]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003A06C1CAE0
+[2015.05.26-05.05.35:760][101]LogAkAudio: StopAll API called
+[2015.05.26-05.05.35:760][101]LogAkAudio: StopAll API called
+[2015.05.26-05.05.35:761][101]LogAkAudio: StopAll API called
+[2015.05.26-05.05.35:761][101]LogAkAudio: StopAll API called
+[2015.05.26-05.05.53:166][ 86]LogAk: CreateProc C:\Program Files (x86)\Audiokinetic\Wwise v2014.1.4 build 5248\Authoring\x64\Release\bin\WwiseCLI.exe  "C:\Users\Media\Documents\Unreal Projects\Sandbox\SandboxWwise\SandboxWwise.wproj" -GenerateSoundBanks -Bank Main -Platform Windows -SoundBankPath Windows "C:\Users\Media\Documents\Unreal Projects\Sandbox\Content\WwiseAudio\Windows" -Platform Android -SoundBankPath Android "C:\Users\Media\Documents\Unreal Projects\Sandbox\Content\WwiseAudio\Android" -Platform IOS -SoundBankPath IOS "C:\Users\Media\Documents\Unreal Projects\Sandbox\Content\WwiseAudio\IOS" -Language English(US)
+[2015.05.26-05.06.02:958][ 86]LogAk: Wwise command-line successfully completed.
+[2015.05.26-05.06.03:508][ 86]LogAkAudio: StopAll API called
+[2015.05.26-05.06.03:508][ 86]LogAkAudio: StopAll API called
+[2015.05.26-05.06.04:102][120]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.26-05.06.04:103][120]PIE: New page: PIE session: Minimal_Default (May 25, 2015, 3:06:04 PM)
+[2015.05.26-05.06.04:109][120]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004509s)
+[2015.05.26-05.06.04:111][120]LogPlayLevel: PIE: World Init took: (0.001517s)
+[2015.05.26-05.06.04:111][120]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.007217s)
+[2015.05.26-05.06.04:143][120]LogWorld: Game class is 'SandboxMode_C'
+[2015.05.26-05.06.04:146][120]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.05.26-05.06.04:155][120]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2015.05.25-22.06.04
+[2015.05.26-05.06.04:156][120]LogWorld: Bringing up level for play took: 0.009128
+[2015.05.26-05.06.04:161][120]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.369
+[2015.05.26-05.06.04:161][120]LogScript:Warning: Accessed None 'MidiData'
+	MIDILightIntensity_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.MIDILightIntensity_C_0
+	Function /Game/MIDILightIntensity.MIDILightIntensity_C:ExecuteUbergraph_MIDILightIntensity:00A6
+[2015.05.26-05.06.04:162][120]PIE:Error: Error Accessed None 'MidiData' from node Construction Script in blueprint MIDILightIntensity
+[2015.05.26-05.06.04:276][121]LogAkAudio: StopAll API called
+[2015.05.26-05.06.04:277][121]LogAkAudio: StopAll API called
+[2015.05.26-05.06.49:199][800]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003A6FFFE840
+[2015.05.26-05.06.49:237][802]LogAkAudio: StopAll API called
+[2015.05.26-05.06.49:237][802]LogAkAudio: StopAll API called
+[2015.05.26-05.06.49:238][802]LogAkAudio: StopAll API called
+[2015.05.26-05.06.49:238][802]LogAkAudio: StopAll API called
+[2015.05.26-05.07.02:529][354]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_MidiLightIntensity2_C_0' or package '/Engine/Transient'.
+[2015.05.26-05.07.02:530][354]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_MidiLightIntensity2_C_1' or package '/Engine/Transient'.
+[2015.05.26-05.07.02:530][354]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_MidiLightIntensity2_C_65' or package '/Engine/Transient'.
+[2015.05.26-05.07.02:531][354]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_MidiLightIntensity2_C_66' or package '/Engine/Transient'.
+[2015.05.26-05.07.02:684][355]LogAkAudio: StopAll API called
+[2015.05.26-05.07.02:685][355]LogAkAudio: StopAll API called
+[2015.05.26-05.07.13:355][898]BlueprintLog: New page: Compile MIDILightIntensity
+[2015.05.26-05.07.13:432][898]BlueprintEditorCompileResults: Info [1024.84] Compile of MIDILightIntensity successful! [in 74 ms]
+[2015.05.26-05.07.39:932][477]LogRenderer:Warning: Reallocating scene render targets to support 1224x744 (Frame:37041).
+[2015.05.26-05.08.18:326][741]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.05.26-05.08.43:423][221]Cmd: TRANSACTION UNDO
+[2015.05.26-05.08.43:424][221]LogEditorTransaction: Undo Move Actors
+[2015.05.26-05.09.00:441][206]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.05.26-05.09.00:449][206]LogPlayLevel: [PIE] Compiling MIDILightIntensity before PIE...
+[2015.05.26-05.09.00:543][206]LogPlayLevel: PIE:  Blueprint regeneration took 102 ms (1 blueprints)
+[2015.05.26-05.09.00:544][206]PIE: New page: PIE session: Minimal_Default (May 25, 2015, 3:09:00 PM)
+[2015.05.26-05.09.00:550][206]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005125s)
+[2015.05.26-05.09.00:554][206]LogPlayLevel: PIE: World Init took: (0.004151s)
+[2015.05.26-05.09.00:555][206]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.010185s)
+[2015.05.26-05.09.00:585][206]LogWorld: Game class is 'SandboxMode_C'
+[2015.05.26-05.09.00:589][206]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.05.26-05.09.00:595][206]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2015.05.25-22.09.00
+[2015.05.26-05.09.00:597][206]LogWorld: Bringing up level for play took: 0.007236
+[2015.05.26-05.09.00:601][206]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.809
+[2015.05.26-05.09.00:602][206]LogScript:Warning: Accessed None 'MidiData'
+	MIDILightIntensity_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.MIDILightIntensity_C_0
+	Function /Game/MIDILightIntensity.MIDILightIntensity_C:ExecuteUbergraph_MIDILightIntensity:00A6
+[2015.05.26-05.09.00:603][206]PIE:Error: Error Accessed None 'MidiData' from node Construction Script in blueprint MIDILightIntensity
+[2015.05.26-05.09.00:710][207]LogAkAudio: StopAll API called
+[2015.05.26-05.09.00:710][207]LogAkAudio: StopAll API called
+[2015.05.26-05.09.06:931][574]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003A34863EC0
+[2015.05.26-05.09.06:973][576]LogAkAudio: StopAll API called
+[2015.05.26-05.09.06:974][576]LogAkAudio: StopAll API called
+[2015.05.26-05.09.06:974][576]LogAkAudio: StopAll API called
+[2015.05.26-05.09.06:975][576]LogAkAudio: StopAll API called
+[2015.05.26-05.09.22:943][512]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.26-05.09.22:944][512]PIE: New page: PIE session: Minimal_Default (May 25, 2015, 3:09:22 PM)
+[2015.05.26-05.09.22:949][512]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004927s)
+[2015.05.26-05.09.22:952][512]LogPlayLevel: PIE: World Init took: (0.002181s)
+[2015.05.26-05.09.22:952][512]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.008071s)
+[2015.05.26-05.09.22:987][512]LogWorld: Game class is 'SandboxMode_C'
+[2015.05.26-05.09.22:990][512]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.05.26-05.09.22:997][512]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2015.05.25-22.09.22
+[2015.05.26-05.09.22:998][512]LogWorld: Bringing up level for play took: 0.007514
+[2015.05.26-05.09.23:002][512]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.79
+[2015.05.26-05.09.23:003][512]LogScript:Warning: Accessed None 'MidiData'
+	MIDILightIntensity_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.MIDILightIntensity_C_0
+	Function /Game/MIDILightIntensity.MIDILightIntensity_C:ExecuteUbergraph_MIDILightIntensity:00A6
+[2015.05.26-05.09.23:004][512]PIE:Error: Error Accessed None 'MidiData' from node Construction Script in blueprint MIDILightIntensity
+[2015.05.26-05.09.23:046][513]LogAkAudio: StopAll API called
+[2015.05.26-05.09.23:047][513]LogAkAudio: StopAll API called
+[2015.05.26-05.09.28:061][809]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003A34F84180
+[2015.05.26-05.09.28:099][811]LogAkAudio: StopAll API called
+[2015.05.26-05.09.28:099][811]LogAkAudio: StopAll API called
+[2015.05.26-05.09.28:100][811]LogAkAudio: StopAll API called
+[2015.05.26-05.09.28:100][811]LogAkAudio: StopAll API called
+[2015.05.26-05.09.32:423][ 54]Cmd: TRANSACTION UNDO
+[2015.05.26-05.09.32:424][ 54]LogEditorTransaction: Undo Set actor rotation
+[2015.05.26-05.09.32:729][ 64]Cmd: TRANSACTION UNDO
+[2015.05.26-05.09.32:729][ 64]LogEditorTransaction: Undo Set actor rotation
+[2015.05.26-05.09.33:135][ 79]Cmd: TRANSACTION UNDO
+[2015.05.26-05.09.33:135][ 79]LogEditorTransaction: Undo Set actor rotation
+[2015.05.26-05.10.23:867][ 79]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.05.26-05.10.23:874][ 79]LogPlayLevel: [PIE] Compiling MIDILightIntensity before PIE...
+[2015.05.26-05.10.23:960][ 79]LogPlayLevel: PIE:  Blueprint regeneration took 93 ms (1 blueprints)
+[2015.05.26-05.10.23:961][ 79]PIE: New page: PIE session: Minimal_Default (May 25, 2015, 3:10:23 PM)
+[2015.05.26-05.10.23:967][ 79]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005144s)
+[2015.05.26-05.10.23:970][ 79]LogPlayLevel: PIE: World Init took: (0.002625s)
+[2015.05.26-05.10.23:970][ 79]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.008539s)
+[2015.05.26-05.10.24:001][ 79]LogWorld: Game class is 'SandboxMode_C'
+[2015.05.26-05.10.24:004][ 79]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.05.26-05.10.24:012][ 79]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2015.05.25-22.10.24
+[2015.05.26-05.10.24:013][ 79]LogWorld: Bringing up level for play took: 0.008030
+[2015.05.26-05.10.24:017][ 79]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.226
+[2015.05.26-05.10.24:018][ 79]LogScript:Warning: Accessed None 'MidiData'
+	MIDILightIntensity_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.MIDILightIntensity_C_0
+	Function /Game/MIDILightIntensity.MIDILightIntensity_C:ExecuteUbergraph_MIDILightIntensity:00A6
+[2015.05.26-05.10.24:019][ 79]PIE:Error: Error Accessed None 'MidiData' from node Construction Script in blueprint MIDILightIntensity
+[2015.05.26-05.10.24:075][ 80]LogAkAudio: StopAll API called
+[2015.05.26-05.10.24:076][ 80]LogAkAudio: StopAll API called
+[2015.05.26-05.10.45:618][360]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003A348616C0
+[2015.05.26-05.10.45:658][362]LogAkAudio: StopAll API called
+[2015.05.26-05.10.45:659][362]LogAkAudio: StopAll API called
+[2015.05.26-05.10.45:659][362]LogAkAudio: StopAll API called
+[2015.05.26-05.10.45:660][362]LogAkAudio: StopAll API called
+[2015.05.26-05.10.48:476][512]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.26-05.10.48:477][512]PIE: New page: PIE session: Minimal_Default (May 25, 2015, 3:10:48 PM)
+[2015.05.26-05.10.48:484][512]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005634s)
+[2015.05.26-05.10.48:487][512]LogPlayLevel: PIE: World Init took: (0.002630s)
+[2015.05.26-05.10.48:488][512]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.009664s)
+[2015.05.26-05.10.48:520][512]LogWorld: Game class is 'SandboxMode_C'
+[2015.05.26-05.10.48:523][512]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.05.26-05.10.48:531][512]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2015.05.25-22.10.48
+[2015.05.26-05.10.48:532][512]LogWorld: Bringing up level for play took: 0.007729
+[2015.05.26-05.10.48:537][512]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.745
+[2015.05.26-05.10.48:538][512]LogScript:Warning: Accessed None 'MidiData'
+	MIDILightIntensity_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.MIDILightIntensity_C_0
+	Function /Game/MIDILightIntensity.MIDILightIntensity_C:ExecuteUbergraph_MIDILightIntensity:00A6
+[2015.05.26-05.10.48:538][512]PIE:Error: Error Accessed None 'MidiData' from node Construction Script in blueprint MIDILightIntensity
+[2015.05.26-05.10.48:580][513]LogAkAudio: StopAll API called
+[2015.05.26-05.10.48:581][513]LogAkAudio: StopAll API called
+[2015.05.26-05.11.07:925][663]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003A7616B100
+[2015.05.26-05.11.07:955][664]LogAkAudio: StopAll API called
+[2015.05.26-05.11.07:956][664]LogAkAudio: StopAll API called
+[2015.05.26-05.11.07:956][664]LogAkAudio: StopAll API called
+[2015.05.26-05.11.07:957][664]LogAkAudio: StopAll API called
+[2015.05.26-05.11.19:069][300]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.26-05.11.19:070][300]PIE: New page: PIE session: Minimal_Default (May 25, 2015, 3:11:19 PM)
+[2015.05.26-05.11.19:077][300]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006522s)
+[2015.05.26-05.11.19:080][300]LogPlayLevel: PIE: World Init took: (0.002309s)
+[2015.05.26-05.11.19:081][300]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.010148s)
+[2015.05.26-05.11.19:113][300]LogWorld: Game class is 'SandboxMode_C'
+[2015.05.26-05.11.19:118][300]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.05.26-05.11.19:125][300]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2015.05.25-22.11.19
+[2015.05.26-05.11.19:127][300]LogWorld: Bringing up level for play took: 0.008075
+[2015.05.26-05.11.19:131][300]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.661
+[2015.05.26-05.11.19:132][300]LogScript:Warning: Accessed None 'MidiData'
+	MIDILightIntensity_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.MIDILightIntensity_C_0
+	Function /Game/MIDILightIntensity.MIDILightIntensity_C:ExecuteUbergraph_MIDILightIntensity:00A6
+[2015.05.26-05.11.19:133][300]PIE:Error: Error Accessed None 'MidiData' from node Construction Script in blueprint MIDILightIntensity
+[2015.05.26-05.11.19:188][301]LogAkAudio: StopAll API called
+[2015.05.26-05.11.19:188][301]LogAkAudio: StopAll API called
+[2015.05.26-05.11.27:771][810]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003A36A13E20
+[2015.05.26-05.11.27:802][811]LogAkAudio: StopAll API called
+[2015.05.26-05.11.27:802][811]LogAkAudio: StopAll API called
+[2015.05.26-05.11.27:803][811]LogAkAudio: StopAll API called
+[2015.05.26-05.11.27:803][811]LogAkAudio: StopAll API called
+[2015.05.26-05.13.46:506][740]LogSavePackage: Save=112.974831ms
+[2015.05.26-05.13.46:507][740]LogSavePackage: Moving '../../../../../Unreal Projects/Sandbox/Saved/Minimal_Default_Auto29F2BCE6544D506FAB6B8D0BE7412FC8E.tmp' to '../../../../../Unreal Projects/Sandbox/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto2.umap'
+[2015.05.26-05.13.46:526][740]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.277
+[2015.05.26-05.13.46:526][740]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.277
+[2015.05.26-05.13.46:563][740]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/MIDILightIntensity] ([1] browsable assets)...
+[2015.05.26-05.13.46:563][740]OBJ SavePackage: Finished generating thumbnails for package [/Game/MIDILightIntensity]
+[2015.05.26-05.13.46:576][740]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MIDILightIntensity" FILE="../../../../../Unreal Projects/Sandbox/Saved/Autosaves/Game/MIDILightIntensity_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2015.05.26-05.13.46:722][740]LogSavePackage: Save=116.839638ms
+[2015.05.26-05.13.46:724][740]LogSavePackage: Moving '../../../../../Unreal Projects/Sandbox/Saved/MIDILightIntensity_Auto2DB69040540F0B488FE6DAB802EEBC816.tmp' to '../../../../../Unreal Projects/Sandbox/Saved/Autosaves/Game/MIDILightIntensity_Auto2.uasset'
+[2015.05.26-05.13.46:732][740]LogFileHelpers: Auto-saving content packages took 0.205
+[2015.05.26-05.29.48:556][978]LogAk: CreateProc C:\Program Files (x86)\Audiokinetic\Wwise v2014.1.4 build 5248\Authoring\x64\Release\bin\WwiseCLI.exe  "C:\Users\Media\Documents\Unreal Projects\Sandbox\SandboxWwise\SandboxWwise.wproj" -GenerateSoundBanks -Bank Main -Platform Windows -SoundBankPath Windows "C:\Users\Media\Documents\Unreal Projects\Sandbox\Content\WwiseAudio\Windows" -Platform Android -SoundBankPath Android "C:\Users\Media\Documents\Unreal Projects\Sandbox\Content\WwiseAudio\Android" -Platform IOS -SoundBankPath IOS "C:\Users\Media\Documents\Unreal Projects\Sandbox\Content\WwiseAudio\IOS" -Language English(US)
+[2015.05.26-05.29.54:795][978]LogAk: Wwise command-line successfully completed.
+[2015.05.26-05.29.57:261][978]LogAkAudio: StopAll API called
+[2015.05.26-05.29.57:261][978]LogAkAudio: StopAll API called
+[2015.05.26-05.30.00:064][142]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.26-05.30.00:064][142]PIE: New page: PIE session: Minimal_Default (May 25, 2015, 3:30:00 PM)
+[2015.05.26-05.30.00:071][142]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005387s)
+[2015.05.26-05.30.00:074][142]LogPlayLevel: PIE: World Init took: (0.002765s)
+[2015.05.26-05.30.00:075][142]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.009644s)
+[2015.05.26-05.30.00:113][142]LogWorld: Game class is 'SandboxMode_C'
+[2015.05.26-05.30.00:117][142]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.05.26-05.30.00:125][142]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2015.05.25-22.30.00
+[2015.05.26-05.30.00:127][142]LogWorld: Bringing up level for play took: 0.008380
+[2015.05.26-05.30.00:132][142]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.34
+[2015.05.26-05.30.00:133][142]LogScript:Warning: Accessed None 'MidiData'
+	MIDILightIntensity_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.MIDILightIntensity_C_0
+	Function /Game/MIDILightIntensity.MIDILightIntensity_C:ExecuteUbergraph_MIDILightIntensity:00A6
+[2015.05.26-05.30.00:133][142]PIE:Error: Error Accessed None 'MidiData' from node Construction Script in blueprint MIDILightIntensity
+[2015.05.26-05.30.00:184][143]LogAkAudio: StopAll API called
+[2015.05.26-05.30.00:184][143]LogAkAudio: StopAll API called
+[2015.05.26-05.30.32:839][ 83]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003A760DAD40
+[2015.05.26-05.30.32:889][ 85]LogAkAudio: StopAll API called
+[2015.05.26-05.30.32:890][ 85]LogAkAudio: StopAll API called
+[2015.05.26-05.30.32:890][ 85]LogAkAudio: StopAll API called
+[2015.05.26-05.30.32:891][ 85]LogAkAudio: StopAll API called
+[2015.05.26-05.30.55:402][265]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.26-05.30.55:403][265]PIE: New page: PIE session: Minimal_Default (May 25, 2015, 3:30:55 PM)
+[2015.05.26-05.30.55:411][265]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006546s)
+[2015.05.26-05.30.55:412][265]LogPlayLevel: PIE: World Init took: (0.000928s)
+[2015.05.26-05.30.55:413][265]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.008936s)
+[2015.05.26-05.30.55:447][265]LogWorld: Game class is 'SandboxMode_C'
+[2015.05.26-05.30.55:451][265]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.05.26-05.30.55:458][265]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2015.05.25-22.30.55
+[2015.05.26-05.30.55:460][265]LogWorld: Bringing up level for play took: 0.007741
+[2015.05.26-05.30.55:464][265]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.328
+[2015.05.26-05.30.55:465][265]LogScript:Warning: Accessed None 'MidiData'
+	MIDILightIntensity_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.MIDILightIntensity_C_0
+	Function /Game/MIDILightIntensity.MIDILightIntensity_C:ExecuteUbergraph_MIDILightIntensity:00A6
+[2015.05.26-05.30.55:466][265]PIE:Error: Error Accessed None 'MidiData' from node Construction Script in blueprint MIDILightIntensity
+[2015.05.26-05.30.55:510][266]LogAkAudio: StopAll API called
+[2015.05.26-05.30.55:511][266]LogAkAudio: StopAll API called
+[2015.05.26-05.31.25:682][ 64]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003A35133A60
+[2015.05.26-05.31.25:723][ 66]LogAkAudio: StopAll API called
+[2015.05.26-05.31.25:724][ 66]LogAkAudio: StopAll API called
+[2015.05.26-05.31.25:724][ 66]LogAkAudio: StopAll API called
+[2015.05.26-05.31.25:725][ 66]LogAkAudio: StopAll API called
+[2015.05.26-05.32.01:221][424]LogAk: CreateProc C:\Program Files (x86)\Audiokinetic\Wwise v2014.1.4 build 5248\Authoring\x64\Release\bin\WwiseCLI.exe  "C:\Users\Media\Documents\Unreal Projects\Sandbox\SandboxWwise\SandboxWwise.wproj" -GenerateSoundBanks -Bank Main -Platform Windows -SoundBankPath Windows "C:\Users\Media\Documents\Unreal Projects\Sandbox\Content\WwiseAudio\Windows" -Platform Android -SoundBankPath Android "C:\Users\Media\Documents\Unreal Projects\Sandbox\Content\WwiseAudio\Android" -Platform IOS -SoundBankPath IOS "C:\Users\Media\Documents\Unreal Projects\Sandbox\Content\WwiseAudio\IOS" -Language English(US)
+[2015.05.26-05.32.09:371][424]LogAk: Wwise command-line successfully completed.
+[2015.05.26-05.32.11:830][424]LogAkAudio: StopAll API called
+[2015.05.26-05.32.11:831][424]LogAkAudio: StopAll API called
+[2015.05.26-05.32.41:436][162]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2015.05.26-05.32.42:361][216]LogEditorViewport: Clicking on Actor (LMB): MIDILightIntensity_C (MIDILightIntensity)
+[2015.05.26-05.32.43:845][303]LogEditorViewport: Clicking on Actor (LMB): Actor (Actor)
+[2015.05.26-05.33.10:455][846]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.05.26-05.33.10:455][846]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2015.05.26-05.34.16:421][674]LogUnrealMath: Expression Error : No value recognized
+[2015.05.26-05.34.16:422][674]LogUnrealMath: Expression Error : Error in expression
+[2015.05.26-05.34.16:422][674]LogUnrealMath: Expression Error : No value recognized
+[2015.05.26-05.34.16:423][674]LogUnrealMath: Expression Error : Error in expression
+[2015.05.26-05.41.14:165][794]LogSavePackage: Save=119.220306ms
+[2015.05.26-05.41.14:165][794]LogSavePackage: Moving '../../../../../Unreal Projects/Sandbox/Saved/Minimal_Default_Auto36126D05D49EC29B7B163999A5577F747.tmp' to '../../../../../Unreal Projects/Sandbox/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto3.umap'
+[2015.05.26-05.41.14:177][794]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.282
+[2015.05.26-05.41.14:178][794]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.282
+[2015.05.26-05.41.14:214][794]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/LightController_Blueprint] ([1] browsable assets)...
+[2015.05.26-05.41.14:214][794]OBJ SavePackage: Finished generating thumbnails for package [/Game/LightController_Blueprint]
+[2015.05.26-05.41.14:225][794]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LightController_Blueprint" FILE="../../../../../Unreal Projects/Sandbox/Saved/Autosaves/Game/LightController_Blueprint_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2015.05.26-05.41.14:383][794]LogSavePackage: Save=154.675812ms
+[2015.05.26-05.41.14:384][794]LogSavePackage: Moving '../../../../../Unreal Projects/Sandbox/Saved/LightController_Blueprint_Auto3729E19E5449C6129AA540AAE78EC8B23.tmp' to '../../../../../Unreal Projects/Sandbox/Saved/Autosaves/Game/LightController_Blueprint_Auto3.uasset'
+[2015.05.26-05.41.14:395][794]LogFileHelpers: Auto-saving content packages took 0.217
+[2015.05.26-05.42.19:160][242]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.05.26-05.42.19:174][242]LogPlayLevel: [PIE] Compiling LightController_Blueprint before PIE...
+[2015.05.26-05.42.19:279][242]LogPlayLevel: PIE:  Blueprint regeneration took 119 ms (1 blueprints)
+[2015.05.26-05.42.19:280][242]PIE: New page: PIE session: Minimal_Default (May 25, 2015, 3:42:19 PM)
+[2015.05.26-05.42.19:286][242]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005195s)
+[2015.05.26-05.42.19:288][242]LogPlayLevel: PIE: World Init took: (0.002477s)
+[2015.05.26-05.42.19:289][242]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.008656s)
+[2015.05.26-05.42.19:333][242]LogWorld: Game class is 'SandboxMode_C'
+[2015.05.26-05.42.19:336][242]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.05.26-05.42.19:344][242]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2015.05.25-22.42.19
+[2015.05.26-05.42.19:346][242]LogWorld: Bringing up level for play took: 0.007996
+[2015.05.26-05.42.19:353][242]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.439
+[2015.05.26-05.42.19:354][242]LogScript:Warning: Accessed None 'MidiData'
+	MIDILightIntensity_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.MIDILightIntensity_C_0
+	Function /Game/MIDILightIntensity.MIDILightIntensity_C:ExecuteUbergraph_MIDILightIntensity:00A6
+[2015.05.26-05.42.19:354][242]PIE:Error: Error Accessed None 'MidiData' from node Construction Script in blueprint MIDILightIntensity
+[2015.05.26-05.42.19:574][242]LogAkAudio: StopAll API called
+[2015.05.26-05.42.19:575][242]LogAkAudio: StopAll API called
+[2015.05.26-05.42.29:103][800]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003A411ADE40
+[2015.05.26-05.42.29:142][801]LogAkAudio: StopAll API called
+[2015.05.26-05.42.29:143][801]LogAkAudio: StopAll API called
+[2015.05.26-05.42.29:143][801]LogAkAudio: StopAll API called
+[2015.05.26-05.42.29:144][801]LogAkAudio: StopAll API called
+[2015.05.26-05.42.36:183][118]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_MIDILightIntensity_C_2' or package '/Engine/Transient'.
+[2015.05.26-05.42.36:184][118]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_MIDILightIntensity_C_3' or package '/Engine/Transient'.
+[2015.05.26-05.42.36:184][118]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_MIDILightIntensity_C_157' or package '/Engine/Transient'.
+[2015.05.26-05.42.36:184][118]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_MIDILightIntensity_C_156' or package '/Engine/Transient'.
+[2015.05.26-05.42.36:211][118]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003A6FE27E20
+[2015.05.26-05.42.36:212][118]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003A0A2CE8E0
+[2015.05.26-05.42.36:364][119]LogAkAudio: StopAll API called
+[2015.05.26-05.42.36:365][119]LogAkAudio: StopAll API called
+[2015.05.26-05.42.36:365][119]LogAkAudio: StopAll API called
+[2015.05.26-05.42.36:365][119]LogAkAudio: StopAll API called
+[2015.05.26-05.42.36:366][119]LogAkAudio: StopAll API called
+[2015.05.26-05.42.36:366][119]LogAkAudio: StopAll API called
+[2015.05.26-05.42.42:339][470]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.26-05.42.42:340][470]PIE: New page: PIE session: Minimal_Default (May 25, 2015, 3:42:42 PM)
+[2015.05.26-05.42.42:346][470]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005190s)
+[2015.05.26-05.42.42:348][470]LogPlayLevel: PIE: World Init took: (0.001962s)
+[2015.05.26-05.42.42:349][470]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.008581s)
+[2015.05.26-05.42.42:386][470]LogWorld: Game class is 'SandboxMode_C'
+[2015.05.26-05.42.42:390][470]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.05.26-05.42.42:399][470]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2015.05.25-22.42.42
+[2015.05.26-05.42.42:401][470]LogWorld: Bringing up level for play took: 0.009754
+[2015.05.26-05.42.42:406][470]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.614
+[2015.05.26-05.42.42:443][471]LogAkAudio: StopAll API called
+[2015.05.26-05.42.42:444][471]LogAkAudio: StopAll API called
+[2015.05.26-05.42.50:109][926]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003A76168400
+[2015.05.26-05.42.50:140][927]LogAkAudio: StopAll API called
+[2015.05.26-05.42.50:140][927]LogAkAudio: StopAll API called
+[2015.05.26-05.42.50:140][927]LogAkAudio: StopAll API called
+[2015.05.26-05.42.50:141][927]LogAkAudio: StopAll API called
+[2015.05.26-05.43.25:972][981]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.05.26-05.43.25:984][981]LogPlayLevel: [PIE] Compiling LightController_Blueprint before PIE...
+[2015.05.26-05.43.26:085][981]LogPlayLevel: PIE:  Blueprint regeneration took 112 ms (1 blueprints)
+[2015.05.26-05.43.26:085][981]PIE: New page: PIE session: Minimal_Default (May 25, 2015, 3:43:26 PM)
+[2015.05.26-05.43.26:090][981]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004020s)
+[2015.05.26-05.43.26:093][981]LogPlayLevel: PIE: World Init took: (0.002645s)
+[2015.05.26-05.43.26:094][981]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.007721s)
+[2015.05.26-05.43.26:135][981]LogWorld: Game class is 'SandboxMode_C'
+[2015.05.26-05.43.26:138][981]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.05.26-05.43.26:145][981]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2015.05.25-22.43.26
+[2015.05.26-05.43.26:147][981]LogWorld: Bringing up level for play took: 0.007283
+[2015.05.26-05.43.26:153][981]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.362
+[2015.05.26-05.43.26:206][981]LogAkAudio: StopAll API called
+[2015.05.26-05.43.26:207][981]LogAkAudio: StopAll API called
+[2015.05.26-05.43.39:586][774]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003A0703D760
+[2015.05.26-05.43.39:625][775]LogAkAudio: StopAll API called
+[2015.05.26-05.43.39:625][775]LogAkAudio: StopAll API called
+[2015.05.26-05.43.39:626][775]LogAkAudio: StopAll API called
+[2015.05.26-05.43.39:626][775]LogAkAudio: StopAll API called
+[2015.05.26-05.44.13:263][741]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.05.26-05.44.13:276][741]LogPlayLevel: [PIE] Compiling LightController_Blueprint before PIE...
+[2015.05.26-05.44.13:382][741]LogPlayLevel: PIE:  Blueprint regeneration took 118 ms (1 blueprints)
+[2015.05.26-05.44.13:382][741]PIE: New page: PIE session: Minimal_Default (May 25, 2015, 3:44:13 PM)
+[2015.05.26-05.44.13:389][741]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005984s)
+[2015.05.26-05.44.13:393][741]LogPlayLevel: PIE: World Init took: (0.003165s)
+[2015.05.26-05.44.13:393][741]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.010125s)
+[2015.05.26-05.44.13:428][741]LogWorld: Game class is 'SandboxMode_C'
+[2015.05.26-05.44.13:432][741]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.05.26-05.44.13:439][741]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2015.05.25-22.44.13
+[2015.05.26-05.44.13:440][741]LogWorld: Bringing up level for play took: 0.007318
+[2015.05.26-05.44.13:446][741]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.346
+[2015.05.26-05.44.13:486][741]LogAkAudio: StopAll API called
+[2015.05.26-05.44.13:487][741]LogAkAudio: StopAll API called
+[2015.05.26-05.44.15:887][877]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003A739ECCC0
+[2015.05.26-05.44.15:913][878]LogAkAudio: StopAll API called
+[2015.05.26-05.44.15:913][878]LogAkAudio: StopAll API called
+[2015.05.26-05.44.15:913][878]LogAkAudio: StopAll API called
+[2015.05.26-05.44.15:914][878]LogAkAudio: StopAll API called
+[2015.05.26-05.44.17:378][960]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.26-05.44.17:379][960]PIE: New page: PIE session: Minimal_Default (May 25, 2015, 3:44:17 PM)
+[2015.05.26-05.44.17:386][960]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005725s)
+[2015.05.26-05.44.17:390][960]LogPlayLevel: PIE: World Init took: (0.003869s)
+[2015.05.26-05.44.17:391][960]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.011000s)
+[2015.05.26-05.44.17:429][960]LogWorld: Game class is 'SandboxMode_C'
+[2015.05.26-05.44.17:433][960]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.05.26-05.44.17:441][960]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2015.05.25-22.44.17
+[2015.05.26-05.44.17:442][960]LogWorld: Bringing up level for play took: 0.008668
+[2015.05.26-05.44.17:447][960]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.345
+[2015.05.26-05.44.17:542][961]LogAkAudio: StopAll API called
+[2015.05.26-05.44.17:542][961]LogAkAudio: StopAll API called
+[2015.05.26-05.45.16:591][449]LogAkAudio: StopAll API called
+[2015.05.26-05.45.24:897][936]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003A70035120
+[2015.05.26-05.45.24:931][938]LogAkAudio: StopAll API called
+[2015.05.26-05.45.24:932][938]LogAkAudio: StopAll API called
+[2015.05.26-05.45.24:933][938]LogAkAudio: StopAll API called
+[2015.05.26-05.45.24:933][938]LogAkAudio: StopAll API called
+[2015.05.26-05.45.25:927][992]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.26-05.45.25:928][992]PIE: New page: PIE session: Minimal_Default (May 25, 2015, 3:45:25 PM)
+[2015.05.26-05.45.25:935][992]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006069s)
+[2015.05.26-05.45.25:938][992]LogPlayLevel: PIE: World Init took: (0.002147s)
+[2015.05.26-05.45.25:939][992]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.009764s)
+[2015.05.26-05.45.25:973][992]LogWorld: Game class is 'SandboxMode_C'
+[2015.05.26-05.45.25:977][992]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.05.26-05.45.25:985][992]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2015.05.25-22.45.25
+[2015.05.26-05.45.25:986][992]LogWorld: Bringing up level for play took: 0.008501
+[2015.05.26-05.45.25:991][992]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.198
+[2015.05.26-05.45.26:035][993]LogAkAudio: StopAll API called
+[2015.05.26-05.45.26:036][993]LogAkAudio: StopAll API called
+[2015.05.26-05.45.43:710][ 39]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003A3D3251C0
+[2015.05.26-05.45.43:749][ 41]LogAkAudio: StopAll API called
+[2015.05.26-05.45.43:749][ 41]LogAkAudio: StopAll API called
+[2015.05.26-05.45.43:750][ 41]LogAkAudio: StopAll API called
+[2015.05.26-05.45.43:750][ 41]LogAkAudio: StopAll API called
+[2015.05.26-05.45.45:940][168]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2015.05.26-05.45.59:585][956]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.26-05.45.59:586][956]PIE: New page: PIE session: Minimal_Default (May 25, 2015, 3:45:59 PM)
+[2015.05.26-05.45.59:591][956]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004824s)
+[2015.05.26-05.45.59:594][956]LogPlayLevel: PIE: World Init took: (0.002040s)
+[2015.05.26-05.45.59:594][956]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.007912s)
+[2015.05.26-05.45.59:636][956]LogWorld: Game class is 'SandboxMode_C'
+[2015.05.26-05.45.59:639][956]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.05.26-05.45.59:646][956]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2015.05.25-22.45.59
+[2015.05.26-05.45.59:648][956]LogWorld: Bringing up level for play took: 0.007525
+[2015.05.26-05.45.59:654][956]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.138
+[2015.05.26-05.45.59:673][956]LogAkAudio: StopAll API called
+[2015.05.26-05.45.59:674][956]LogAkAudio: StopAll API called
+[2015.05.26-05.46.10:514][565]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003A4A852160
+[2015.05.26-05.46.10:530][567]LogAkAudio: StopAll API called
+[2015.05.26-05.46.10:531][567]LogAkAudio: StopAll API called
+[2015.05.26-05.46.10:532][567]LogAkAudio: StopAll API called
+[2015.05.26-05.46.10:532][567]LogAkAudio: StopAll API called
+[2015.05.26-05.46.35:720][ 55]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.26-05.46.35:721][ 55]PIE: New page: PIE session: Minimal_Default (May 25, 2015, 3:46:35 PM)
+[2015.05.26-05.46.35:727][ 55]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004792s)
+[2015.05.26-05.46.35:730][ 55]LogPlayLevel: PIE: World Init took: (0.002050s)
+[2015.05.26-05.46.35:730][ 55]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.008243s)
+[2015.05.26-05.46.35:761][ 55]LogWorld: Game class is 'SandboxMode_C'
+[2015.05.26-05.46.35:764][ 55]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.05.26-05.46.35:771][ 55]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2015.05.25-22.46.35
+[2015.05.26-05.46.35:772][ 55]LogWorld: Bringing up level for play took: 0.007362
+[2015.05.26-05.46.35:777][ 55]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.016
+[2015.05.26-05.46.35:853][ 56]LogAkAudio: StopAll API called
+[2015.05.26-05.46.35:854][ 56]LogAkAudio: StopAll API called
+[2015.05.26-05.46.39:857][290]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003A739EFF60
+[2015.05.26-05.46.39:883][291]LogAkAudio: StopAll API called
+[2015.05.26-05.46.39:884][291]LogAkAudio: StopAll API called
+[2015.05.26-05.46.39:884][291]LogAkAudio: StopAll API called
+[2015.05.26-05.46.39:885][291]LogAkAudio: StopAll API called
+[2015.05.26-05.47.02:813][650]LogAkAudio: StopAll API called
+[2015.05.26-05.47.02:813][650]LogAkAudio: StopAll API called
+[2015.05.26-05.47.02:814][650]LogAkAudio: StopAll API called
+[2015.05.26-05.48.47:280][907]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.05.26-05.48.47:296][907]LogPlayLevel: [PIE] Compiling LightController_Blueprint before PIE...
+[2015.05.26-05.48.47:397][907]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003A343DF2E0
+[2015.05.26-05.48.47:401][907]LogPlayLevel: PIE:  Blueprint regeneration took 119 ms (1 blueprints)
+[2015.05.26-05.48.47:401][907]PIE: New page: PIE session: Minimal_Default (May 25, 2015, 3:48:47 PM)
+[2015.05.26-05.48.47:407][907]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005309s)
+[2015.05.26-05.48.47:408][907]LogPlayLevel: PIE: World Init took: (0.000602s)
+[2015.05.26-05.48.47:409][907]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.006947s)
+[2015.05.26-05.48.47:449][907]LogWorld: Game class is 'SandboxMode_C'
+[2015.05.26-05.48.47:452][907]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.05.26-05.48.47:460][907]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2015.05.25-22.48.47
+[2015.05.26-05.48.47:461][907]LogWorld: Bringing up level for play took: 0.008267
+[2015.05.26-05.48.47:470][907]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.322
+[2015.05.26-05.48.47:532][907]LogAkAudio: StopAll API called
+[2015.05.26-05.48.47:533][907]LogAkAudio: StopAll API called
+[2015.05.26-05.48.52:123][174]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003A49C58D60
+[2015.05.26-05.48.52:160][175]LogAkAudio: StopAll API called
+[2015.05.26-05.48.52:161][175]LogAkAudio: StopAll API called
+[2015.05.26-05.48.52:161][175]LogAkAudio: StopAll API called
+[2015.05.26-05.48.52:161][175]LogAkAudio: StopAll API called
+[2015.05.26-05.48.56:404][423]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.05.26-05.48.56:422][423]LogPlayLevel: [PIE] Compiling LightController_Blueprint before PIE...
+[2015.05.26-05.48.56:531][423]LogPlayLevel: PIE:  Blueprint regeneration took 127 ms (1 blueprints)
+[2015.05.26-05.48.56:532][423]PIE: New page: PIE session: Minimal_Default (May 25, 2015, 3:48:56 PM)
+[2015.05.26-05.48.56:538][423]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005439s)
+[2015.05.26-05.48.56:540][423]LogPlayLevel: PIE: World Init took: (0.000950s)
+[2015.05.26-05.48.56:540][423]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.007423s)
+[2015.05.26-05.48.56:576][423]LogWorld: Game class is 'SandboxMode_C'
+[2015.05.26-05.48.56:579][423]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.05.26-05.48.56:587][423]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2015.05.25-22.48.56
+[2015.05.26-05.48.56:588][423]LogWorld: Bringing up level for play took: 0.007737
+[2015.05.26-05.48.56:594][423]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.802
+[2015.05.26-05.48.56:595][423]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.56:657][423]LogAkAudio: StopAll API called
+[2015.05.26-05.48.56:658][423]LogAkAudio: StopAll API called
+[2015.05.26-05.48.56:704][424]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.56:714][425]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.56:731][426]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.56:747][427]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.56:764][428]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.56:780][429]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.56:797][430]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.56:814][431]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.56:831][432]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.56:847][433]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.56:864][434]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.56:880][435]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.56:897][436]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.56:914][437]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.56:930][438]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.56:947][439]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.56:964][440]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.56:994][441]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.57:003][442]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.57:020][443]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.57:037][444]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.57:053][445]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.57:070][446]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.57:087][447]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.57:103][448]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.57:120][449]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.57:136][450]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.57:153][451]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.57:170][452]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.57:187][453]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.57:203][454]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.57:220][455]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.57:236][456]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.57:254][457]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.57:271][458]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.57:287][459]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.57:304][460]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.57:321][461]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.57:337][462]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.57:354][463]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.57:371][464]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.57:387][465]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.57:404][466]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.57:421][467]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.57:437][468]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.57:454][469]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.57:471][470]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.57:487][471]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.57:504][472]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.57:521][473]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.57:537][474]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.57:554][475]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.57:570][476]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.57:587][477]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.57:604][478]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.57:620][479]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.57:637][480]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.57:654][481]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.57:670][482]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.57:687][483]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.57:704][484]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.57:720][485]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.57:737][486]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.57:754][487]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.57:770][488]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.57:787][489]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.57:804][490]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.57:820][491]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.57:837][492]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.57:854][493]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.57:870][494]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.57:887][495]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.57:904][496]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.57:920][497]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.57:937][498]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.57:954][499]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.57:970][500]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.57:987][501]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.58:020][502]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.58:037][503]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.58:054][504]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.58:070][505]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.58:087][506]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.58:103][507]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.58:120][508]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.58:137][509]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.58:153][510]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.58:170][511]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.58:187][512]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.58:203][513]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.58:220][514]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.58:237][515]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.58:253][516]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.58:270][517]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.58:287][518]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.58:303][519]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.58:320][520]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.58:337][521]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.58:353][522]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.58:370][523]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.58:387][524]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.58:403][525]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.58:420][526]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.58:437][527]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.58:453][528]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.58:470][529]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.58:487][530]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.58:503][531]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.58:520][532]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.58:537][533]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.58:553][534]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.58:570][535]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.58:587][536]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.58:603][537]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.58:620][538]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.58:637][539]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.58:653][540]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.58:670][541]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.58:688][542]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.58:704][543]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.58:721][544]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.58:737][545]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.58:754][546]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.58:771][547]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.58:787][548]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.58:804][549]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.58:821][550]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.58:838][551]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.58:854][552]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.58:871][553]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.58:887][554]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.58:904][555]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.58:921][556]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.58:938][557]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.58:954][558]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.58:971][559]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.58:987][560]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.59:004][561]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.59:021][562]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.59:037][563]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.59:054][564]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.59:071][565]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.59:087][566]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.59:104][567]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.59:121][568]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.59:137][569]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.59:154][570]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.59:171][571]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.59:187][572]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.59:204][573]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.59:220][574]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.59:237][575]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.59:254][576]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.59:270][577]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.59:287][578]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.59:304][579]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.59:320][580]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.59:337][581]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.59:354][582]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.59:370][583]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.59:387][584]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.59:404][585]LogBlueprintUserMessages: 0
+[2015.05.26-05.48.59:420][586]LogBlueprintUserMessages: 18.268
+[2015.05.26-05.48.59:437][587]LogBlueprintUserMessages: 18.268
+[2015.05.26-05.48.59:454][588]LogBlueprintUserMessages: 16.535
+[2015.05.26-05.48.59:471][589]LogBlueprintUserMessages: 15.118
+[2015.05.26-05.48.59:487][590]LogBlueprintUserMessages: 15.118
+[2015.05.26-05.48.59:504][591]LogBlueprintUserMessages: 13.858
+[2015.05.26-05.48.59:520][592]LogBlueprintUserMessages: 12.598
+[2015.05.26-05.48.59:537][593]LogBlueprintUserMessages: 11.496
+[2015.05.26-05.48.59:553][594]LogBlueprintUserMessages: 10.551
+[2015.05.26-05.48.59:570][595]LogBlueprintUserMessages: 9.606
+[2015.05.26-05.48.59:587][596]LogBlueprintUserMessages: 9.606
+[2015.05.26-05.48.59:604][597]LogBlueprintUserMessages: 8.661
+[2015.05.26-05.48.59:620][598]LogBlueprintUserMessages: 8.661
+[2015.05.26-05.48.59:637][599]LogBlueprintUserMessages: 7.874
+[2015.05.26-05.48.59:654][600]LogBlueprintUserMessages: 7.087
+[2015.05.26-05.48.59:670][601]LogBlueprintUserMessages: 6.457
+[2015.05.26-05.48.59:687][602]LogBlueprintUserMessages: 5.827
+[2015.05.26-05.48.59:703][603]LogBlueprintUserMessages: 5.354
+[2015.05.26-05.48.59:720][604]LogBlueprintUserMessages: 5.354
+[2015.05.26-05.48.59:737][605]LogBlueprintUserMessages: 4.882
+[2015.05.26-05.48.59:754][606]LogBlueprintUserMessages: 4.409
+[2015.05.26-05.48.59:770][607]LogBlueprintUserMessages: 3.937
+[2015.05.26-05.48.59:787][608]LogBlueprintUserMessages: 3.937
+[2015.05.26-05.48.59:803][609]LogBlueprintUserMessages: 3.622
+[2015.05.26-05.48.59:820][610]LogBlueprintUserMessages: 3.307
+[2015.05.26-05.48.59:837][611]LogBlueprintUserMessages: 2.992
+[2015.05.26-05.48.59:853][612]LogBlueprintUserMessages: 2.677
+[2015.05.26-05.48.59:870][613]LogBlueprintUserMessages: 2.362
+[2015.05.26-05.48.59:887][614]LogBlueprintUserMessages: 2.362
+[2015.05.26-05.48.59:903][615]LogBlueprintUserMessages: 2.205
+[2015.05.26-05.48.59:920][616]LogBlueprintUserMessages: 1.89
+[2015.05.26-05.48.59:937][617]LogBlueprintUserMessages: 1.89
+[2015.05.26-05.48.59:953][618]LogBlueprintUserMessages: 1.732
+[2015.05.26-05.48.59:970][619]LogBlueprintUserMessages: 1.575
+[2015.05.26-05.48.59:987][620]LogBlueprintUserMessages: 1.417
+[2015.05.26-05.49.00:003][621]LogBlueprintUserMessages: 1.26
+[2015.05.26-05.49.00:020][622]LogBlueprintUserMessages: 1.26
+[2015.05.26-05.49.00:058][623]LogBlueprintUserMessages: 0.945
+[2015.05.26-05.49.00:070][624]LogBlueprintUserMessages: 0.787
+[2015.05.26-05.49.00:088][625]LogBlueprintUserMessages: 0.787
+[2015.05.26-05.49.00:105][626]LogBlueprintUserMessages: 0.787
+[2015.05.26-05.49.00:121][627]LogBlueprintUserMessages: 0.63
+[2015.05.26-05.49.00:138][628]LogBlueprintUserMessages: 0.63
+[2015.05.26-05.49.00:155][629]LogBlueprintUserMessages: 0.472
+[2015.05.26-05.49.00:171][630]LogBlueprintUserMessages: 0.472
+[2015.05.26-05.49.00:188][631]LogBlueprintUserMessages: 0.472
+[2015.05.26-05.49.00:205][632]LogBlueprintUserMessages: 0.315
+[2015.05.26-05.49.00:221][633]LogBlueprintUserMessages: 0.315
+[2015.05.26-05.49.00:238][634]LogBlueprintUserMessages: 0.157
+[2015.05.26-05.49.00:255][635]LogBlueprintUserMessages: 0.157
+[2015.05.26-05.49.00:271][636]LogBlueprintUserMessages: 0.157
+[2015.05.26-05.49.00:288][637]LogBlueprintUserMessages: 0.157
+[2015.05.26-05.49.00:305][638]LogBlueprintUserMessages: 0
+[2015.05.26-05.49.00:321][639]LogBlueprintUserMessages: 0
+[2015.05.26-05.49.00:338][640]LogBlueprintUserMessages: 0
+[2015.05.26-05.49.00:355][641]LogBlueprintUserMessages: 0
+[2015.05.26-05.49.00:371][642]LogBlueprintUserMessages: 0
+[2015.05.26-05.49.00:388][643]LogBlueprintUserMessages: 0
+[2015.05.26-05.49.00:404][644]LogBlueprintUserMessages: 20
+[2015.05.26-05.49.00:421][645]LogBlueprintUserMessages: 20
+[2015.05.26-05.49.00:438][646]LogBlueprintUserMessages: 15.748
+[2015.05.26-05.49.00:455][647]LogBlueprintUserMessages: 12.441
+[2015.05.26-05.49.00:471][648]LogBlueprintUserMessages: 9.764
+[2015.05.26-05.49.00:488][649]LogBlueprintUserMessages: 9.764
+[2015.05.26-05.49.00:505][650]LogBlueprintUserMessages: 7.717
+[2015.05.26-05.49.00:521][651]LogBlueprintUserMessages: 5.984
+[2015.05.26-05.49.00:538][652]LogBlueprintUserMessages: 4.409
+[2015.05.26-05.49.00:554][653]LogBlueprintUserMessages: 3.465
+[2015.05.26-05.49.00:571][654]LogBlueprintUserMessages: 3.465
+[2015.05.26-05.49.00:588][655]LogBlueprintUserMessages: 2.677
+[2015.05.26-05.49.00:604][656]LogBlueprintUserMessages: 2.047
+[2015.05.26-05.49.00:621][657]LogBlueprintUserMessages: 1.575
+[2015.05.26-05.49.00:638][658]LogBlueprintUserMessages: 1.575
+[2015.05.26-05.49.00:654][659]LogBlueprintUserMessages: 1.102
+[2015.05.26-05.49.00:671][660]LogBlueprintUserMessages: 0.787
+[2015.05.26-05.49.00:688][661]LogBlueprintUserMessages: 0.63
+[2015.05.26-05.49.00:704][662]LogBlueprintUserMessages: 0.315
+[2015.05.26-05.49.00:721][663]LogBlueprintUserMessages: 0.157
+[2015.05.26-05.49.00:738][664]LogBlueprintUserMessages: 0.157
+[2015.05.26-05.49.00:754][665]LogBlueprintUserMessages: 0
+[2015.05.26-05.49.00:771][666]LogBlueprintUserMessages: 0
+[2015.05.26-05.49.00:787][667]LogBlueprintUserMessages: 0
+[2015.05.26-05.49.00:804][668]LogBlueprintUserMessages: 18.74
+[2015.05.26-05.49.00:821][669]LogBlueprintUserMessages: 16.693
+[2015.05.26-05.49.00:837][670]LogBlueprintUserMessages: 14.803
+[2015.05.26-05.49.00:854][671]LogBlueprintUserMessages: 13.228
+[2015.05.26-05.49.00:871][672]LogBlueprintUserMessages: 11.654
+[2015.05.26-05.49.00:887][673]LogBlueprintUserMessages: 11.654
+[2015.05.26-05.49.00:904][674]LogBlueprintUserMessages: 10.394
+[2015.05.26-05.49.00:921][675]LogBlueprintUserMessages: 9.134
+[2015.05.26-05.49.00:937][676]LogBlueprintUserMessages: 9.134
+[2015.05.26-05.49.00:954][677]LogBlueprintUserMessages: 8.189
+[2015.05.26-05.49.00:971][678]LogBlueprintUserMessages: 7.087
+[2015.05.26-05.49.00:987][679]LogBlueprintUserMessages: 6.299
+[2015.05.26-05.49.01:004][680]LogBlueprintUserMessages: 5.512
+[2015.05.26-05.49.01:021][681]LogBlueprintUserMessages: 4.882
+[2015.05.26-05.49.01:038][682]LogBlueprintUserMessages: 4.882
+[2015.05.26-05.49.01:054][683]LogBlueprintUserMessages: 4.409
+[2015.05.26-05.49.01:074][684]LogBlueprintUserMessages: 3.937
+[2015.05.26-05.49.01:090][685]LogBlueprintUserMessages: 3.465
+[2015.05.26-05.49.01:107][686]LogBlueprintUserMessages: 3.465
+[2015.05.26-05.49.01:124][687]LogBlueprintUserMessages: 2.992
+[2015.05.26-05.49.01:140][688]LogBlueprintUserMessages: 2.677
+[2015.05.26-05.49.01:157][689]LogBlueprintUserMessages: 2.362
+[2015.05.26-05.49.01:174][690]LogBlueprintUserMessages: 2.047
+[2015.05.26-05.49.01:190][691]LogBlueprintUserMessages: 1.732
+[2015.05.26-05.49.01:207][692]LogBlueprintUserMessages: 1.732
+[2015.05.26-05.49.01:224][693]LogBlueprintUserMessages: 1.575
+[2015.05.26-05.49.01:240][694]LogBlueprintUserMessages: 1.417
+[2015.05.26-05.49.01:257][695]LogBlueprintUserMessages: 1.417
+[2015.05.26-05.49.01:275][696]LogBlueprintUserMessages: 1.26
+[2015.05.26-05.49.01:291][697]LogBlueprintUserMessages: 1.102
+[2015.05.26-05.49.01:308][698]LogBlueprintUserMessages: 0.945
+[2015.05.26-05.49.01:325][699]LogBlueprintUserMessages: 0.787
+[2015.05.26-05.49.01:341][700]LogBlueprintUserMessages: 0.787
+[2015.05.26-05.49.01:358][701]LogBlueprintUserMessages: 0.787
+[2015.05.26-05.49.01:375][702]LogBlueprintUserMessages: 0.63
+[2015.05.26-05.49.01:391][703]LogBlueprintUserMessages: 0.472
+[2015.05.26-05.49.01:408][704]LogBlueprintUserMessages: 0.472
+[2015.05.26-05.49.01:424][705]LogBlueprintUserMessages: 0.472
+[2015.05.26-05.49.01:441][706]LogBlueprintUserMessages: 0.315
+[2015.05.26-05.49.01:458][707]LogBlueprintUserMessages: 0.315
+[2015.05.26-05.49.01:474][708]LogBlueprintUserMessages: 0.315
+[2015.05.26-05.49.01:491][709]LogBlueprintUserMessages: 0.315
+[2015.05.26-05.49.01:508][710]LogBlueprintUserMessages: 0.315
+[2015.05.26-05.49.01:524][711]LogBlueprintUserMessages: 0.157
+[2015.05.26-05.49.01:541][712]LogBlueprintUserMessages: 0.157
+[2015.05.26-05.49.01:558][713]LogBlueprintUserMessages: 0.157
+[2015.05.26-05.49.01:575][714]LogBlueprintUserMessages: 0.157
+[2015.05.26-05.49.01:591][715]LogBlueprintUserMessages: 0.157
+[2015.05.26-05.49.01:608][716]LogBlueprintUserMessages: 0.157
+[2015.05.26-05.49.01:625][717]LogBlueprintUserMessages: 0
+[2015.05.26-05.49.01:641][718]LogBlueprintUserMessages: 0
+[2015.05.26-05.49.01:657][719]LogBlueprintUserMessages: 0
+[2015.05.26-05.49.01:674][720]LogBlueprintUserMessages: 0
+[2015.05.26-05.49.01:691][721]LogBlueprintUserMessages: 0
+[2015.05.26-05.49.01:707][722]LogBlueprintUserMessages: 0
+[2015.05.26-05.49.01:724][723]LogBlueprintUserMessages: 0
+[2015.05.26-05.49.01:741][724]LogBlueprintUserMessages: 0
+[2015.05.26-05.49.01:757][725]LogBlueprintUserMessages: 0
+[2015.05.26-05.49.01:774][726]LogBlueprintUserMessages: 0
+[2015.05.26-05.49.01:791][727]LogBlueprintUserMessages: 0
+[2015.05.26-05.49.01:807][728]LogBlueprintUserMessages: 0
+[2015.05.26-05.49.01:824][729]LogBlueprintUserMessages: 0
+[2015.05.26-05.49.01:841][730]LogBlueprintUserMessages: 0
+[2015.05.26-05.49.01:858][731]LogBlueprintUserMessages: 0
+[2015.05.26-05.49.01:874][732]LogBlueprintUserMessages: 0
+[2015.05.26-05.49.01:891][733]LogBlueprintUserMessages: 0
+[2015.05.26-05.49.01:907][734]LogBlueprintUserMessages: 0
+[2015.05.26-05.49.01:924][735]LogBlueprintUserMessages: 17.323
+[2015.05.26-05.49.01:940][736]LogBlueprintUserMessages: 14.331
+[2015.05.26-05.49.01:957][737]LogBlueprintUserMessages: 14.331
+[2015.05.26-05.49.01:974][738]LogBlueprintUserMessages: 11.969
+[2015.05.26-05.49.01:991][739]LogBlueprintUserMessages: 9.764
+[2015.05.26-05.49.02:008][740]LogBlueprintUserMessages: 8.031
+[2015.05.26-05.49.02:024][741]LogBlueprintUserMessages: 8.031
+[2015.05.26-05.49.02:041][742]LogBlueprintUserMessages: 6.614
+[2015.05.26-05.49.02:057][743]LogBlueprintUserMessages: 5.354
+[2015.05.26-05.49.02:090][744]LogBlueprintUserMessages: 4.409
+[2015.05.26-05.49.02:099][745]LogBlueprintUserMessages: 3.307
+[2015.05.26-05.49.02:116][746]LogBlueprintUserMessages: 2.677
+[2015.05.26-05.49.02:133][747]LogBlueprintUserMessages: 2.047
+[2015.05.26-05.49.02:149][748]LogBlueprintUserMessages: 2.047
+[2015.05.26-05.49.02:166][749]LogBlueprintUserMessages: 1.575
+[2015.05.26-05.49.02:183][750]LogBlueprintUserMessages: 1.102
+[2015.05.26-05.49.02:199][751]LogBlueprintUserMessages: 1.102
+[2015.05.26-05.49.02:216][752]LogBlueprintUserMessages: 0.787
+[2015.05.26-05.49.02:233][753]LogBlueprintUserMessages: 0.472
+[2015.05.26-05.49.02:249][754]LogBlueprintUserMessages: 0.315
+[2015.05.26-05.49.02:266][755]LogBlueprintUserMessages: 0.157
+[2015.05.26-05.49.02:282][756]LogBlueprintUserMessages: 20
+[2015.05.26-05.49.02:299][757]LogBlueprintUserMessages: 20
+[2015.05.26-05.49.02:316][758]LogBlueprintUserMessages: 17.008
+[2015.05.26-05.49.02:333][759]LogBlueprintUserMessages: 15.118
+[2015.05.26-05.49.02:349][760]LogBlueprintUserMessages: 15.118
+[2015.05.26-05.49.02:366][761]LogBlueprintUserMessages: 13.228
+[2015.05.26-05.49.02:382][762]LogBlueprintUserMessages: 11.654
+[2015.05.26-05.49.02:399][763]LogBlueprintUserMessages: 10.394
+[2015.05.26-05.49.02:416][764]LogBlueprintUserMessages: 9.134
+[2015.05.26-05.49.02:432][765]LogBlueprintUserMessages: 8.031
+[2015.05.26-05.49.02:449][766]LogBlueprintUserMessages: 8.031
+[2015.05.26-05.49.02:466][767]LogBlueprintUserMessages: 7.087
+[2015.05.26-05.49.02:482][768]LogBlueprintUserMessages: 6.142
+[2015.05.26-05.49.02:499][769]LogBlueprintUserMessages: 6.142
+[2015.05.26-05.49.02:516][770]LogBlueprintUserMessages: 5.354
+[2015.05.26-05.49.02:532][771]LogBlueprintUserMessages: 4.567
+[2015.05.26-05.49.02:549][772]LogBlueprintUserMessages: 3.937
+[2015.05.26-05.49.02:566][773]LogBlueprintUserMessages: 3.465
+[2015.05.26-05.49.02:582][774]LogBlueprintUserMessages: 2.992
+[2015.05.26-05.49.02:599][775]LogBlueprintUserMessages: 2.992
+[2015.05.26-05.49.02:616][776]LogBlueprintUserMessages: 2.52
+[2015.05.26-05.49.02:632][777]LogBlueprintUserMessages: 2.205
+[2015.05.26-05.49.02:649][778]LogBlueprintUserMessages: 1.89
+[2015.05.26-05.49.02:665][779]LogBlueprintUserMessages: 1.89
+[2015.05.26-05.49.02:683][780]LogBlueprintUserMessages: 1.575
+[2015.05.26-05.49.02:700][781]LogBlueprintUserMessages: 1.417
+[2015.05.26-05.49.02:716][782]LogBlueprintUserMessages: 1.102
+[2015.05.26-05.49.02:733][783]LogBlueprintUserMessages: 0.945
+[2015.05.26-05.49.02:750][784]LogBlueprintUserMessages: 0.945
+[2015.05.26-05.49.02:766][785]LogBlueprintUserMessages: 0.63
+[2015.05.26-05.49.02:783][786]LogBlueprintUserMessages: 0.63
+[2015.05.26-05.49.02:800][787]LogBlueprintUserMessages: 0.472
+[2015.05.26-05.49.02:816][788]LogBlueprintUserMessages: 0.472
+[2015.05.26-05.49.02:833][789]LogBlueprintUserMessages: 0.315
+[2015.05.26-05.49.02:850][790]LogBlueprintUserMessages: 0.157
+[2015.05.26-05.49.02:866][791]LogBlueprintUserMessages: 0.157
+[2015.05.26-05.49.02:883][792]LogBlueprintUserMessages: 0
+[2015.05.26-05.49.02:900][793]LogBlueprintUserMessages: 0
+[2015.05.26-05.49.02:916][794]LogBlueprintUserMessages: 0
+[2015.05.26-05.49.02:933][795]LogBlueprintUserMessages: 18.268
+[2015.05.26-05.49.02:950][796]LogBlueprintUserMessages: 16.22
+[2015.05.26-05.49.02:966][797]LogBlueprintUserMessages: 13.858
+[2015.05.26-05.49.02:983][798]LogBlueprintUserMessages: 13.858
+[2015.05.26-05.49.03:000][799]LogBlueprintUserMessages: 12.283
+[2015.05.26-05.49.03:016][800]LogBlueprintUserMessages: 10.866
+[2015.05.26-05.49.03:033][801]LogBlueprintUserMessages: 9.606
+[2015.05.26-05.49.03:050][802]LogBlueprintUserMessages: 9.606
+[2015.05.26-05.49.03:066][803]LogBlueprintUserMessages: 8.346
+[2015.05.26-05.49.03:083][804]LogBlueprintUserMessages: 7.402
+[2015.05.26-05.49.03:099][805]LogBlueprintUserMessages: 6.457
+[2015.05.26-05.49.03:116][806]LogBlueprintUserMessages: 5.512
+[2015.05.26-05.49.03:133][807]LogBlueprintUserMessages: 5.512
+[2015.05.26-05.49.03:150][808]LogBlueprintUserMessages: 4.882
+[2015.05.26-05.49.03:166][809]LogBlueprintUserMessages: 4.094
+[2015.05.26-05.49.03:183][810]LogBlueprintUserMessages: 3.622
+[2015.05.26-05.49.03:199][811]LogBlueprintUserMessages: 3.622
+[2015.05.26-05.49.03:216][812]LogBlueprintUserMessages: 2.835
+[2015.05.26-05.49.03:233][813]LogBlueprintUserMessages: 2.362
+[2015.05.26-05.49.03:249][814]LogBlueprintUserMessages: 2.047
+[2015.05.26-05.49.03:266][815]LogBlueprintUserMessages: 1.575
+[2015.05.26-05.49.03:283][816]LogBlueprintUserMessages: 1.26
+[2015.05.26-05.49.03:300][817]LogBlueprintUserMessages: 1.26
+[2015.05.26-05.49.03:316][818]LogBlueprintUserMessages: 0.945
+[2015.05.26-05.49.03:333][819]LogBlueprintUserMessages: 0.787
+[2015.05.26-05.49.03:350][820]LogBlueprintUserMessages: 0.787
+[2015.05.26-05.49.03:367][821]LogBlueprintUserMessages: 0.472
+[2015.05.26-05.49.03:383][822]LogBlueprintUserMessages: 0.315
+[2015.05.26-05.49.03:400][823]LogBlueprintUserMessages: 0
+[2015.05.26-05.49.03:416][824]LogBlueprintUserMessages: 19.213
+[2015.05.26-05.49.03:433][825]LogBlueprintUserMessages: 17.795
+[2015.05.26-05.49.03:450][826]LogBlueprintUserMessages: 17.795
+[2015.05.26-05.49.03:467][827]LogBlueprintUserMessages: 16.378
+[2015.05.26-05.49.03:483][828]LogBlueprintUserMessages: 15.118
+[2015.05.26-05.49.03:500][829]LogBlueprintUserMessages: 15.118
+[2015.05.26-05.49.03:516][830]LogBlueprintUserMessages: 14.016
+[2015.05.26-05.49.03:533][831]LogBlueprintUserMessages: 12.913
+[2015.05.26-05.49.03:550][832]LogBlueprintUserMessages: 11.969
+[2015.05.26-05.49.03:566][833]LogBlueprintUserMessages: 11.024
+[2015.05.26-05.49.03:583][834]LogBlueprintUserMessages: 10.236
+[2015.05.26-05.49.03:600][835]LogBlueprintUserMessages: 10.236
+[2015.05.26-05.49.03:616][836]LogBlueprintUserMessages: 9.449
+[2015.05.26-05.49.03:633][837]LogBlueprintUserMessages: 8.504
+[2015.05.26-05.49.03:650][838]LogBlueprintUserMessages: 8.504
+[2015.05.26-05.49.03:666][839]LogBlueprintUserMessages: 7.874
+[2015.05.26-05.49.03:683][840]LogBlueprintUserMessages: 7.244
+[2015.05.26-05.49.03:700][841]LogBlueprintUserMessages: 6.772
+[2015.05.26-05.49.03:716][842]LogBlueprintUserMessages: 6.142
+[2015.05.26-05.49.03:733][843]LogBlueprintUserMessages: 5.669
+[2015.05.26-05.49.03:750][844]LogBlueprintUserMessages: 5.669
+[2015.05.26-05.49.03:766][845]LogBlueprintUserMessages: 5.197
+[2015.05.26-05.49.03:783][846]LogBlueprintUserMessages: 4.882
+[2015.05.26-05.49.03:799][847]LogBlueprintUserMessages: 4.882
+[2015.05.26-05.49.03:816][848]LogBlueprintUserMessages: 4.409
+[2015.05.26-05.49.03:833][849]LogBlueprintUserMessages: 4.094
+[2015.05.26-05.49.03:849][850]LogBlueprintUserMessages: 3.78
+[2015.05.26-05.49.03:866][851]LogBlueprintUserMessages: 3.307
+[2015.05.26-05.49.03:883][852]LogBlueprintUserMessages: 2.992
+[2015.05.26-05.49.03:899][853]LogBlueprintUserMessages: 2.992
+[2015.05.26-05.49.03:916][854]LogBlueprintUserMessages: 2.835
+[2015.05.26-05.49.03:933][855]LogBlueprintUserMessages: 2.52
+[2015.05.26-05.49.03:949][856]LogBlueprintUserMessages: 2.52
+[2015.05.26-05.49.03:966][857]LogBlueprintUserMessages: 2.362
+[2015.05.26-05.49.03:983][858]LogBlueprintUserMessages: 2.047
+[2015.05.26-05.49.03:999][859]LogBlueprintUserMessages: 1.89
+[2015.05.26-05.49.04:017][860]LogBlueprintUserMessages: 1.732
+[2015.05.26-05.49.04:033][861]LogBlueprintUserMessages: 1.575
+[2015.05.26-05.49.04:050][862]LogBlueprintUserMessages: 1.575
+[2015.05.26-05.49.04:067][863]LogBlueprintUserMessages: 1.417
+[2015.05.26-05.49.04:083][864]LogBlueprintUserMessages: 1.26
+[2015.05.26-05.49.04:106][865]LogBlueprintUserMessages: 1.102
+[2015.05.26-05.49.04:123][866]LogBlueprintUserMessages: 0.945
+[2015.05.26-05.49.04:140][867]LogBlueprintUserMessages: 0.945
+[2015.05.26-05.49.04:157][868]LogBlueprintUserMessages: 0.787
+[2015.05.26-05.49.04:173][869]LogBlueprintUserMessages: 0.787
+[2015.05.26-05.49.04:190][870]LogBlueprintUserMessages: 0.63
+[2015.05.26-05.49.04:207][871]LogBlueprintUserMessages: 0.472
+[2015.05.26-05.49.04:223][872]LogBlueprintUserMessages: 0.472
+[2015.05.26-05.49.04:240][873]LogBlueprintUserMessages: 0.472
+[2015.05.26-05.49.04:256][874]LogBlueprintUserMessages: 0.315
+[2015.05.26-05.49.04:273][875]LogBlueprintUserMessages: 0.315
+[2015.05.26-05.49.04:290][876]LogBlueprintUserMessages: 0.315
+[2015.05.26-05.49.04:306][877]LogBlueprintUserMessages: 0.157
+[2015.05.26-05.49.04:323][878]LogBlueprintUserMessages: 0.157
+[2015.05.26-05.49.04:340][879]LogBlueprintUserMessages: 0.157
+[2015.05.26-05.49.04:356][880]LogBlueprintUserMessages: 0
+[2015.05.26-05.49.04:373][881]LogBlueprintUserMessages: 0
+[2015.05.26-05.49.04:390][882]LogBlueprintUserMessages: 0
+[2015.05.26-05.49.04:406][883]LogBlueprintUserMessages: 0
+[2015.05.26-05.49.04:423][884]LogBlueprintUserMessages: 18.11
+[2015.05.26-05.49.04:440][885]LogBlueprintUserMessages: 18.11
+[2015.05.26-05.49.04:456][886]LogBlueprintUserMessages: 14.961
+[2015.05.26-05.49.04:473][887]LogBlueprintUserMessages: 12.283
+[2015.05.26-05.49.04:490][888]LogBlueprintUserMessages: 10.079
+[2015.05.26-05.49.04:506][889]LogBlueprintUserMessages: 8.189
+[2015.05.26-05.49.04:523][890]LogBlueprintUserMessages: 6.299
+[2015.05.26-05.49.04:539][891]LogBlueprintUserMessages: 6.299
+[2015.05.26-05.49.04:556][892]LogBlueprintUserMessages: 5.197
+[2015.05.26-05.49.04:573][893]LogBlueprintUserMessages: 4.094
+[2015.05.26-05.49.04:590][894]LogBlueprintUserMessages: 4.094
+[2015.05.26-05.49.04:606][895]LogBlueprintUserMessages: 3.307
+[2015.05.26-05.49.04:623][896]LogBlueprintUserMessages: 2.677
+[2015.05.26-05.49.04:640][897]LogBlueprintUserMessages: 2.047
+[2015.05.26-05.49.04:656][898]LogBlueprintUserMessages: 1.575
+[2015.05.26-05.49.04:673][899]LogBlueprintUserMessages: 1.102
+[2015.05.26-05.49.04:689][900]LogBlueprintUserMessages: 1.102
+[2015.05.26-05.49.04:706][901]LogBlueprintUserMessages: 0.787
+[2015.05.26-05.49.04:723][902]LogBlueprintUserMessages: 0.472
+[2015.05.26-05.49.04:739][903]LogBlueprintUserMessages: 0.472
+[2015.05.26-05.49.04:756][904]LogBlueprintUserMessages: 0.315
+[2015.05.26-05.49.04:773][905]LogBlueprintUserMessages: 0
+[2015.05.26-05.49.04:789][906]LogBlueprintUserMessages: 20
+[2015.05.26-05.49.04:806][907]LogBlueprintUserMessages: 18.74
+[2015.05.26-05.49.04:823][908]LogBlueprintUserMessages: 17.638
+[2015.05.26-05.49.04:840][909]LogBlueprintUserMessages: 17.638
+[2015.05.26-05.49.04:856][910]LogBlueprintUserMessages: 16.535
+[2015.05.26-05.49.04:873][911]LogBlueprintUserMessages: 15.591
+[2015.05.26-05.49.04:889][912]LogBlueprintUserMessages: 14.646
+[2015.05.26-05.49.04:906][913]LogBlueprintUserMessages: 14.646
+[2015.05.26-05.49.04:923][914]LogBlueprintUserMessages: 13.701
+[2015.05.26-05.49.04:939][915]LogBlueprintUserMessages: 12.913
+[2015.05.26-05.49.04:956][916]LogBlueprintUserMessages: 12.126
+[2015.05.26-05.49.04:973][917]LogBlueprintUserMessages: 11.181
+[2015.05.26-05.49.04:989][918]LogBlueprintUserMessages: 11.181
+[2015.05.26-05.49.05:006][919]LogBlueprintUserMessages: 10.394
+[2015.05.26-05.49.05:023][920]LogBlueprintUserMessages: 9.764
+[2015.05.26-05.49.05:039][921]LogBlueprintUserMessages: 9.134
+[2015.05.26-05.49.05:056][922]LogBlueprintUserMessages: 9.134
+[2015.05.26-05.49.05:073][923]LogBlueprintUserMessages: 8.661
+[2015.05.26-05.49.05:089][924]LogBlueprintUserMessages: 8.031
+[2015.05.26-05.49.05:128][925]LogBlueprintUserMessages: 7.087
+[2015.05.26-05.49.05:144][926]LogBlueprintUserMessages: 6.614
+[2015.05.26-05.49.05:161][927]LogBlueprintUserMessages: 6.142
+[2015.05.26-05.49.05:178][928]LogBlueprintUserMessages: 6.142
+[2015.05.26-05.49.05:194][929]LogBlueprintUserMessages: 5.669
+[2015.05.26-05.49.05:211][930]LogBlueprintUserMessages: 5.354
+[2015.05.26-05.49.05:228][931]LogBlueprintUserMessages: 5.354
+[2015.05.26-05.49.05:244][932]LogBlueprintUserMessages: 4.882
+[2015.05.26-05.49.05:261][933]LogBlueprintUserMessages: 4.567
+[2015.05.26-05.49.05:278][934]LogBlueprintUserMessages: 4.252
+[2015.05.26-05.49.05:294][935]LogBlueprintUserMessages: 3.937
+[2015.05.26-05.49.05:311][936]LogBlueprintUserMessages: 3.78
+[2015.05.26-05.49.05:328][937]LogBlueprintUserMessages: 3.78
+[2015.05.26-05.49.05:345][938]LogBlueprintUserMessages: 3.465
+[2015.05.26-05.49.05:362][939]LogBlueprintUserMessages: 3.15
+[2015.05.26-05.49.05:379][940]LogBlueprintUserMessages: 3.15
+[2015.05.26-05.49.05:395][941]LogBlueprintUserMessages: 2.992
+[2015.05.26-05.49.05:412][942]LogBlueprintUserMessages: 2.677
+[2015.05.26-05.49.05:428][943]LogBlueprintUserMessages: 2.52
+[2015.05.26-05.49.05:445][944]LogBlueprintUserMessages: 2.205
+[2015.05.26-05.49.05:462][945]LogBlueprintUserMessages: 2.047
+[2015.05.26-05.49.05:479][946]LogBlueprintUserMessages: 2.047
+[2015.05.26-05.49.05:495][947]LogBlueprintUserMessages: 1.89
+[2015.05.26-05.49.05:512][948]LogBlueprintUserMessages: 1.732
+[2015.05.26-05.49.05:528][949]LogBlueprintUserMessages: 1.575
+[2015.05.26-05.49.05:545][950]LogBlueprintUserMessages: 1.575
+[2015.05.26-05.49.05:562][951]LogBlueprintUserMessages: 1.417
+[2015.05.26-05.49.05:578][952]LogBlueprintUserMessages: 1.26
+[2015.05.26-05.49.05:595][953]LogBlueprintUserMessages: 1.26
+[2015.05.26-05.49.05:612][954]LogBlueprintUserMessages: 1.102
+[2015.05.26-05.49.05:628][955]LogBlueprintUserMessages: 1.102
+[2015.05.26-05.49.05:645][956]LogBlueprintUserMessages: 0.945
+[2015.05.26-05.49.05:662][957]LogBlueprintUserMessages: 0.787
+[2015.05.26-05.49.05:678][958]LogBlueprintUserMessages: 0.787
+[2015.05.26-05.49.05:695][959]LogBlueprintUserMessages: 0.787
+[2015.05.26-05.49.05:712][960]LogBlueprintUserMessages: 0.63
+[2015.05.26-05.49.05:728][961]LogBlueprintUserMessages: 0.472
+[2015.05.26-05.49.05:745][962]LogBlueprintUserMessages: 0.472
+[2015.05.26-05.49.05:762][963]LogBlueprintUserMessages: 0.315
+[2015.05.26-05.49.05:778][964]LogBlueprintUserMessages: 0.315
+[2015.05.26-05.49.05:795][965]LogBlueprintUserMessages: 0.315
+[2015.05.26-05.49.05:812][966]LogBlueprintUserMessages: 0.157
+[2015.05.26-05.49.05:828][967]LogBlueprintUserMessages: 0.157
+[2015.05.26-05.49.05:845][968]LogBlueprintUserMessages: 0.157
+[2015.05.26-05.49.05:862][969]LogBlueprintUserMessages: 0.157
+[2015.05.26-05.49.05:878][970]LogBlueprintUserMessages: 0
+[2015.05.26-05.49.05:895][971]LogBlueprintUserMessages: 0
+[2015.05.26-05.49.05:911][972]LogBlueprintUserMessages: 19.213
+[2015.05.26-05.49.05:928][973]LogBlueprintUserMessages: 19.213
+[2015.05.26-05.49.05:945][974]LogBlueprintUserMessages: 16.693
+[2015.05.26-05.49.05:961][975]LogBlueprintUserMessages: 14.488
+[2015.05.26-05.49.05:978][976]LogBlueprintUserMessages: 12.598
+[2015.05.26-05.49.05:995][977]LogBlueprintUserMessages: 10.709
+[2015.05.26-05.49.06:011][978]LogBlueprintUserMessages: 10.709
+[2015.05.26-05.49.06:028][979]LogBlueprintUserMessages: 9.291
+[2015.05.26-05.49.06:045][980]LogBlueprintUserMessages: 7.874
+[2015.05.26-05.49.06:061][981]LogBlueprintUserMessages: 6.614
+[2015.05.26-05.49.06:078][982]LogBlueprintUserMessages: 6.614
+[2015.05.26-05.49.06:095][983]LogBlueprintUserMessages: 5.354
+[2015.05.26-05.49.06:111][984]LogBlueprintUserMessages: 4.409
+[2015.05.26-05.49.06:136][985]LogBlueprintUserMessages: 3.622
+[2015.05.26-05.49.06:150][986]LogBlueprintUserMessages: 2.992
+[2015.05.26-05.49.06:167][987]LogBlueprintUserMessages: 2.362
+[2015.05.26-05.49.06:183][988]LogBlueprintUserMessages: 2.362
+[2015.05.26-05.49.06:200][989]LogBlueprintUserMessages: 1.732
+[2015.05.26-05.49.06:216][990]LogBlueprintUserMessages: 1.26
+[2015.05.26-05.49.06:233][991]LogBlueprintUserMessages: 0.787
+[2015.05.26-05.49.06:250][992]LogBlueprintUserMessages: 0.787
+[2015.05.26-05.49.06:266][993]LogBlueprintUserMessages: 0.472
+[2015.05.26-05.49.06:283][994]LogBlueprintUserMessages: 0
+[2015.05.26-05.49.06:300][995]LogBlueprintUserMessages: 18.11
+[2015.05.26-05.49.06:316][996]LogBlueprintUserMessages: 16.063
+[2015.05.26-05.49.06:333][997]LogBlueprintUserMessages: 16.063
+[2015.05.26-05.49.06:350][998]LogBlueprintUserMessages: 14.173
+[2015.05.26-05.49.06:367][999]LogBlueprintUserMessages: 12.441
+[2015.05.26-05.49.06:383][  0]LogBlueprintUserMessages: 11.024
+[2015.05.26-05.49.06:400][  1]LogBlueprintUserMessages: 11.024
+[2015.05.26-05.49.06:417][  2]LogBlueprintUserMessages: 9.764
+[2015.05.26-05.49.06:433][  3]LogBlueprintUserMessages: 8.504
+[2015.05.26-05.49.06:450][  4]LogBlueprintUserMessages: 7.559
+[2015.05.26-05.49.06:467][  5]LogBlueprintUserMessages: 6.614
+[2015.05.26-05.49.06:483][  6]LogBlueprintUserMessages: 5.827
+[2015.05.26-05.49.06:500][  7]LogBlueprintUserMessages: 5.827
+[2015.05.26-05.49.06:517][  8]LogBlueprintUserMessages: 5.039
+[2015.05.26-05.49.06:533][  9]LogBlueprintUserMessages: 4.252
+[2015.05.26-05.49.06:550][ 10]LogBlueprintUserMessages: 4.252
+[2015.05.26-05.49.06:567][ 11]LogBlueprintUserMessages: 3.622
+[2015.05.26-05.49.06:583][ 12]LogBlueprintUserMessages: 3.15
+[2015.05.26-05.49.06:600][ 13]LogBlueprintUserMessages: 2.835
+[2015.05.26-05.49.06:616][ 14]LogBlueprintUserMessages: 2.362
+[2015.05.26-05.49.06:633][ 15]LogBlueprintUserMessages: 2.047
+[2015.05.26-05.49.06:650][ 16]LogBlueprintUserMessages: 2.047
+[2015.05.26-05.49.06:667][ 17]LogBlueprintUserMessages: 1.732
+[2015.05.26-05.49.06:684][ 18]LogBlueprintUserMessages: 1.417
+[2015.05.26-05.49.06:700][ 19]LogBlueprintUserMessages: 1.417
+[2015.05.26-05.49.06:717][ 20]LogBlueprintUserMessages: 1.26
+[2015.05.26-05.49.06:733][ 21]LogBlueprintUserMessages: 0.945
+[2015.05.26-05.49.06:750][ 22]LogBlueprintUserMessages: 0.787
+[2015.05.26-05.49.06:767][ 23]LogBlueprintUserMessages: 0.63
+[2015.05.26-05.49.06:783][ 24]LogBlueprintUserMessages: 0.472
+[2015.05.26-05.49.06:800][ 25]LogBlueprintUserMessages: 0.472
+[2015.05.26-05.49.06:817][ 26]LogBlueprintUserMessages: 0.315
+[2015.05.26-05.49.06:833][ 27]LogBlueprintUserMessages: 0.315
+[2015.05.26-05.49.06:850][ 28]LogBlueprintUserMessages: 0.315
+[2015.05.26-05.49.06:867][ 29]LogBlueprintUserMessages: 0.157
+[2015.05.26-05.49.06:883][ 30]LogBlueprintUserMessages: 0
+[2015.05.26-05.49.06:900][ 31]LogBlueprintUserMessages: 0
+[2015.05.26-05.49.06:917][ 32]LogBlueprintUserMessages: 19.055
+[2015.05.26-05.49.06:933][ 33]LogBlueprintUserMessages: 16.22
+[2015.05.26-05.49.06:950][ 34]LogBlueprintUserMessages: 16.22
+[2015.05.26-05.49.06:967][ 35]LogBlueprintUserMessages: 13.701
+[2015.05.26-05.49.06:983][ 36]LogBlueprintUserMessages: 11.181
+[2015.05.26-05.49.07:000][ 37]LogBlueprintUserMessages: 11.181
+[2015.05.26-05.49.07:017][ 38]LogBlueprintUserMessages: 9.449
+[2015.05.26-05.49.07:033][ 39]LogBlueprintUserMessages: 7.874
+[2015.05.26-05.49.07:050][ 40]LogBlueprintUserMessages: 6.614
+[2015.05.26-05.49.07:067][ 41]LogBlueprintUserMessages: 5.669
+[2015.05.26-05.49.07:083][ 42]LogBlueprintUserMessages: 4.724
+[2015.05.26-05.49.07:100][ 43]LogBlueprintUserMessages: 4.724
+[2015.05.26-05.49.07:117][ 44]LogBlueprintUserMessages: 3.937
+[2015.05.26-05.49.07:170][ 45]LogBlueprintUserMessages: 2.677
+[2015.05.26-05.49.07:180][ 46]LogBlueprintUserMessages: 2.205
+[2015.05.26-05.49.07:197][ 47]LogBlueprintUserMessages: 1.732
+[2015.05.26-05.49.07:214][ 48]LogBlueprintUserMessages: 1.417
+[2015.05.26-05.49.07:230][ 49]LogBlueprintUserMessages: 1.417
+[2015.05.26-05.49.07:247][ 50]LogBlueprintUserMessages: 1.102
+[2015.05.26-05.49.07:264][ 51]LogBlueprintUserMessages: 0.945
+[2015.05.26-05.49.07:280][ 52]LogBlueprintUserMessages: 0.63
+[2015.05.26-05.49.07:297][ 53]LogBlueprintUserMessages: 0.63
+[2015.05.26-05.49.07:314][ 54]LogBlueprintUserMessages: 0.472
+[2015.05.26-05.49.07:330][ 55]LogBlueprintUserMessages: 0.315
+[2015.05.26-05.49.07:347][ 56]LogBlueprintUserMessages: 0.157
+[2015.05.26-05.49.07:364][ 57]LogBlueprintUserMessages: 0.157
+[2015.05.26-05.49.07:381][ 58]LogBlueprintUserMessages: 0
+[2015.05.26-05.49.07:397][ 59]LogBlueprintUserMessages: 0
+[2015.05.26-05.49.07:414][ 60]LogBlueprintUserMessages: 0
+[2015.05.26-05.49.07:431][ 61]LogBlueprintUserMessages: 18.583
+[2015.05.26-05.49.07:447][ 62]LogBlueprintUserMessages: 17.323
+[2015.05.26-05.49.07:464][ 63]LogBlueprintUserMessages: 17.323
+[2015.05.26-05.49.07:481][ 64]LogBlueprintUserMessages: 16.22
+[2015.05.26-05.49.07:497][ 65]LogBlueprintUserMessages: 15.118
+[2015.05.26-05.49.07:514][ 66]LogBlueprintUserMessages: 14.016
+[2015.05.26-05.49.07:531][ 67]LogBlueprintUserMessages: 13.071
+[2015.05.26-05.49.07:547][ 68]LogBlueprintUserMessages: 13.071
+[2015.05.26-05.49.07:564][ 69]LogBlueprintUserMessages: 12.126
+[2015.05.26-05.49.07:581][ 70]LogBlueprintUserMessages: 11.339
+[2015.05.26-05.49.07:597][ 71]LogBlueprintUserMessages: 10.551
+[2015.05.26-05.49.07:614][ 72]LogBlueprintUserMessages: 10.551
+[2015.05.26-05.49.07:631][ 73]LogBlueprintUserMessages: 9.764
+[2015.05.26-05.49.07:647][ 74]LogBlueprintUserMessages: 8.976
+[2015.05.26-05.49.07:664][ 75]LogBlueprintUserMessages: 8.346
+[2015.05.26-05.49.07:681][ 76]LogBlueprintUserMessages: 7.717
+[2015.05.26-05.49.07:697][ 77]LogBlueprintUserMessages: 7.717
+[2015.05.26-05.49.07:714][ 78]LogBlueprintUserMessages: 7.244
+[2015.05.26-05.49.07:731][ 79]LogBlueprintUserMessages: 6.614
+[2015.05.26-05.49.07:747][ 80]LogBlueprintUserMessages: 6.142
+[2015.05.26-05.49.07:764][ 81]LogBlueprintUserMessages: 5.669
+[2015.05.26-05.49.07:780][ 82]LogBlueprintUserMessages: 5.669
+[2015.05.26-05.49.07:797][ 83]LogBlueprintUserMessages: 5.354
+[2015.05.26-05.49.07:814][ 84]LogBlueprintUserMessages: 4.882
+[2015.05.26-05.49.07:830][ 85]LogBlueprintUserMessages: 4.882
+[2015.05.26-05.49.07:847][ 86]LogBlueprintUserMessages: 4.567
+[2015.05.26-05.49.07:864][ 87]LogBlueprintUserMessages: 4.094
+[2015.05.26-05.49.07:881][ 88]LogBlueprintUserMessages: 3.78
+[2015.05.26-05.49.07:897][ 89]LogBlueprintUserMessages: 3.465
+[2015.05.26-05.49.07:914][ 90]LogBlueprintUserMessages: 3.15
+[2015.05.26-05.49.07:930][ 91]LogBlueprintUserMessages: 3.15
+[2015.05.26-05.49.07:947][ 92]LogBlueprintUserMessages: 2.835
+[2015.05.26-05.49.07:964][ 93]LogBlueprintUserMessages: 2.677
+[2015.05.26-05.49.07:980][ 94]LogBlueprintUserMessages: 2.362
+[2015.05.26-05.49.07:997][ 95]LogBlueprintUserMessages: 2.362
+[2015.05.26-05.49.08:014][ 96]LogBlueprintUserMessages: 2.205
+[2015.05.26-05.49.08:030][ 97]LogBlueprintUserMessages: 2.047
+[2015.05.26-05.49.08:047][ 98]LogBlueprintUserMessages: 1.89
+[2015.05.26-05.49.08:064][ 99]LogBlueprintUserMessages: 1.575
+[2015.05.26-05.49.08:081][100]LogBlueprintUserMessages: 1.417
+[2015.05.26-05.49.08:098][101]LogBlueprintUserMessages: 1.417
+[2015.05.26-05.49.08:114][102]LogBlueprintUserMessages: 1.26
+[2015.05.26-05.49.08:131][103]LogBlueprintUserMessages: 1.102
+[2015.05.26-05.49.08:147][104]LogBlueprintUserMessages: 1.102
+[2015.05.26-05.49.08:164][105]LogBlueprintUserMessages: 0.945
+[2015.05.26-05.49.08:181][106]LogBlueprintUserMessages: 0.945
+[2015.05.26-05.49.08:198][107]LogBlueprintUserMessages: 0.787
+[2015.05.26-05.49.08:214][108]LogBlueprintUserMessages: 0.63
+[2015.05.26-05.49.08:231][109]LogBlueprintUserMessages: 0.63
+[2015.05.26-05.49.08:247][110]LogBlueprintUserMessages: 0.63
+[2015.05.26-05.49.08:264][111]LogBlueprintUserMessages: 0.472
+[2015.05.26-05.49.08:281][112]LogBlueprintUserMessages: 0.472
+[2015.05.26-05.49.08:297][113]LogBlueprintUserMessages: 0.315
+[2015.05.26-05.49.08:314][114]LogBlueprintUserMessages: 0.315
+[2015.05.26-05.49.08:331][115]LogBlueprintUserMessages: 0.157
+[2015.05.26-05.49.08:347][116]LogBlueprintUserMessages: 0.157
+[2015.05.26-05.49.08:364][117]LogBlueprintUserMessages: 0
+[2015.05.26-05.49.08:381][118]LogBlueprintUserMessages: 0
+[2015.05.26-05.49.08:397][119]LogBlueprintUserMessages: 0
+[2015.05.26-05.49.08:414][120]LogBlueprintUserMessages: 20
+[2015.05.26-05.49.08:431][121]LogBlueprintUserMessages: 15.748
+[2015.05.26-05.49.08:447][122]LogBlueprintUserMessages: 15.748
+[2015.05.26-05.49.08:464][123]LogBlueprintUserMessages: 12.441
+[2015.05.26-05.49.08:481][124]LogBlueprintUserMessages: 9.764
+[2015.05.26-05.49.08:497][125]LogBlueprintUserMessages: 7.717
+[2015.05.26-05.49.08:514][126]LogBlueprintUserMessages: 5.984
+[2015.05.26-05.49.08:530][127]LogBlueprintUserMessages: 4.409
+[2015.05.26-05.49.08:547][128]LogBlueprintUserMessages: 4.409
+[2015.05.26-05.49.08:564][129]LogBlueprintUserMessages: 3.465
+[2015.05.26-05.49.08:581][130]LogBlueprintUserMessages: 2.677
+[2015.05.26-05.49.08:597][131]LogBlueprintUserMessages: 2.677
+[2015.05.26-05.49.08:614][132]LogBlueprintUserMessages: 2.047
+[2015.05.26-05.49.08:630][133]LogBlueprintUserMessages: 1.575
+[2015.05.26-05.49.08:647][134]LogBlueprintUserMessages: 1.102
+[2015.05.26-05.49.08:664][135]LogBlueprintUserMessages: 0.787
+[2015.05.26-05.49.08:680][136]LogBlueprintUserMessages: 0.63
+[2015.05.26-05.49.08:697][137]LogBlueprintUserMessages: 0.63
+[2015.05.26-05.49.08:714][138]LogBlueprintUserMessages: 0.315
+[2015.05.26-05.49.08:730][139]LogBlueprintUserMessages: 0.157
+[2015.05.26-05.49.08:747][140]LogBlueprintUserMessages: 0.157
+[2015.05.26-05.49.08:764][141]LogBlueprintUserMessages: 0
+[2015.05.26-05.49.08:781][142]LogBlueprintUserMessages: 0
+[2015.05.26-05.49.08:797][143]LogBlueprintUserMessages: 19.37
+[2015.05.26-05.49.08:814][144]LogBlueprintUserMessages: 18.268
+[2015.05.26-05.49.08:831][145]LogBlueprintUserMessages: 17.165
+[2015.05.26-05.49.08:848][146]LogBlueprintUserMessages: 17.165
+[2015.05.26-05.49.08:864][147]LogBlueprintUserMessages: 16.22
+[2015.05.26-05.49.08:881][148]LogBlueprintUserMessages: 15.276
+[2015.05.26-05.49.08:897][149]LogBlueprintUserMessages: 15.276
+[2015.05.26-05.49.08:914][150]LogBlueprintUserMessages: 14.331
+[2015.05.26-05.49.08:931][151]LogBlueprintUserMessages: 13.543
+[2015.05.26-05.49.08:947][152]LogBlueprintUserMessages: 12.756
+[2015.05.26-05.49.08:964][153]LogBlueprintUserMessages: 11.811
+[2015.05.26-05.49.08:981][154]LogBlueprintUserMessages: 11.811
+[2015.05.26-05.49.08:997][155]LogBlueprintUserMessages: 11.024
+[2015.05.26-05.49.09:014][156]LogBlueprintUserMessages: 10.394
+[2015.05.26-05.49.09:031][157]LogBlueprintUserMessages: 9.764
+[2015.05.26-05.49.09:047][158]LogBlueprintUserMessages: 9.134
+[2015.05.26-05.49.09:064][159]LogBlueprintUserMessages: 9.134
+[2015.05.26-05.49.09:081][160]LogBlueprintUserMessages: 8.661
+[2015.05.26-05.49.09:097][161]LogBlueprintUserMessages: 8.031
+[2015.05.26-05.49.09:114][162]LogBlueprintUserMessages: 7.559
+[2015.05.26-05.49.09:131][163]LogBlueprintUserMessages: 7.087
+[2015.05.26-05.49.09:147][164]LogBlueprintUserMessages: 7.087
+[2015.05.26-05.49.09:174][165]LogBlueprintUserMessages: 6.299
+[2015.05.26-05.49.09:190][166]LogBlueprintUserMessages: 6.299
+[2015.05.26-05.49.09:207][167]LogBlueprintUserMessages: 5.669
+[2015.05.26-05.49.09:224][168]LogBlueprintUserMessages: 5.354
+[2015.05.26-05.49.09:240][169]LogBlueprintUserMessages: 5.039
+[2015.05.26-05.49.09:257][170]LogBlueprintUserMessages: 5.039
+[2015.05.26-05.49.09:274][171]LogBlueprintUserMessages: 4.724
+[2015.05.26-05.49.09:290][172]LogBlueprintUserMessages: 4.409
+[2015.05.26-05.49.09:307][173]LogBlueprintUserMessages: 4.094
+[2015.05.26-05.49.09:324][174]LogBlueprintUserMessages: 3.78
+[2015.05.26-05.49.09:340][175]LogBlueprintUserMessages: 3.78
+[2015.05.26-05.49.09:357][176]LogBlueprintUserMessages: 3.465
+[2015.05.26-05.49.09:374][177]LogBlueprintUserMessages: 3.307
+[2015.05.26-05.49.09:390][178]LogBlueprintUserMessages: 2.992
+[2015.05.26-05.49.09:407][179]LogBlueprintUserMessages: 2.992
+[2015.05.26-05.49.09:424][180]LogBlueprintUserMessages: 2.677
+[2015.05.26-05.49.09:440][181]LogBlueprintUserMessages: 2.52
+[2015.05.26-05.49.09:457][182]LogBlueprintUserMessages: 2.362
+[2015.05.26-05.49.09:474][183]LogBlueprintUserMessages: 2.205
+[2015.05.26-05.49.09:491][184]LogBlueprintUserMessages: 2.205
+[2015.05.26-05.49.09:507][185]LogBlueprintUserMessages: 2.047
+[2015.05.26-05.49.09:524][186]LogBlueprintUserMessages: 1.732
+[2015.05.26-05.49.09:541][187]LogBlueprintUserMessages: 1.575
+[2015.05.26-05.49.09:557][188]LogBlueprintUserMessages: 1.575
+[2015.05.26-05.49.09:574][189]LogBlueprintUserMessages: 1.575
+[2015.05.26-05.49.09:591][190]LogBlueprintUserMessages: 1.417
+[2015.05.26-05.49.09:607][191]LogBlueprintUserMessages: 1.26
+[2015.05.26-05.49.09:624][192]LogBlueprintUserMessages: 1.102
+[2015.05.26-05.49.09:640][193]LogBlueprintUserMessages: 0.945
+[2015.05.26-05.49.09:657][194]LogBlueprintUserMessages: 0.945
+[2015.05.26-05.49.09:674][195]LogBlueprintUserMessages: 0.787
+[2015.05.26-05.49.09:690][196]LogBlueprintUserMessages: 0.787
+[2015.05.26-05.49.09:707][197]LogBlueprintUserMessages: 0.787
+[2015.05.26-05.49.09:724][198]LogBlueprintUserMessages: 0.63
+[2015.05.26-05.49.09:740][199]LogBlueprintUserMessages: 0.472
+[2015.05.26-05.49.09:757][200]LogBlueprintUserMessages: 0.472
+[2015.05.26-05.49.09:774][201]LogBlueprintUserMessages: 0.315
+[2015.05.26-05.49.09:791][202]LogBlueprintUserMessages: 0.315
+[2015.05.26-05.49.09:807][203]LogBlueprintUserMessages: 0.315
+[2015.05.26-05.49.09:824][204]LogBlueprintUserMessages: 0.157
+[2015.05.26-05.49.09:840][205]LogBlueprintUserMessages: 0.157
+[2015.05.26-05.49.09:857][206]LogBlueprintUserMessages: 0.157
+[2015.05.26-05.49.09:874][207]LogBlueprintUserMessages: 0
+[2015.05.26-05.49.09:890][208]LogBlueprintUserMessages: 0
+[2015.05.26-05.49.09:907][209]LogBlueprintUserMessages: 0
+[2015.05.26-05.49.09:924][210]LogBlueprintUserMessages: 17.008
+[2015.05.26-05.49.09:940][211]LogBlueprintUserMessages: 13.858
+[2015.05.26-05.49.09:957][212]LogBlueprintUserMessages: 13.858
+[2015.05.26-05.49.09:974][213]LogBlueprintUserMessages: 11.181
+[2015.05.26-05.49.09:990][214]LogBlueprintUserMessages: 9.134
+[2015.05.26-05.49.10:007][215]LogBlueprintUserMessages: 7.402
+[2015.05.26-05.49.10:024][216]LogBlueprintUserMessages: 7.402
+[2015.05.26-05.49.10:040][217]LogBlueprintUserMessages: 5.827
+[2015.05.26-05.49.10:057][218]LogBlueprintUserMessages: 4.724
+[2015.05.26-05.49.10:074][219]LogBlueprintUserMessages: 3.78
+[2015.05.26-05.49.10:090][220]LogBlueprintUserMessages: 3.78
+[2015.05.26-05.49.10:107][221]LogBlueprintUserMessages: 2.835
+[2015.05.26-05.49.10:123][222]LogBlueprintUserMessages: 2.205
+[2015.05.26-05.49.10:140][223]LogBlueprintUserMessages: 1.575
+[2015.05.26-05.49.10:166][224]LogBlueprintUserMessages: 1.26
+[2015.05.26-05.49.10:176][225]LogBlueprintUserMessages: 1.26
+[2015.05.26-05.49.10:193][226]LogBlueprintUserMessages: 0.945
+[2015.05.26-05.49.10:209][227]LogBlueprintUserMessages: 0.63
+[2015.05.26-05.49.10:226][228]LogBlueprintUserMessages: 0.315
+[2015.05.26-05.49.10:242][229]LogBlueprintUserMessages: 0.157
+[2015.05.26-05.49.10:259][230]LogBlueprintUserMessages: 0.157
+[2015.05.26-05.49.10:276][231]LogBlueprintUserMessages: 0
+[2015.05.26-05.49.10:292][232]LogBlueprintUserMessages: 20
+[2015.05.26-05.49.10:309][233]LogBlueprintUserMessages: 16.85
+[2015.05.26-05.49.10:326][234]LogBlueprintUserMessages: 14.803
+[2015.05.26-05.49.10:342][235]LogBlueprintUserMessages: 14.803
+[2015.05.26-05.49.10:359][236]LogBlueprintUserMessages: 12.913
+[2015.05.26-05.49.10:375][237]LogBlueprintUserMessages: 11.339
+[2015.05.26-05.49.10:392][238]LogBlueprintUserMessages: 9.921
+[2015.05.26-05.49.10:409][239]LogBlueprintUserMessages: 9.921
+[2015.05.26-05.49.10:425][240]LogBlueprintUserMessages: 8.661
+[2015.05.26-05.49.10:442][241]LogBlueprintUserMessages: 7.559
+[2015.05.26-05.49.10:459][242]LogBlueprintUserMessages: 6.614
+[2015.05.26-05.49.10:475][243]LogBlueprintUserMessages: 5.669
+[2015.05.26-05.49.10:492][244]LogBlueprintUserMessages: 5.669
+[2015.05.26-05.49.10:509][245]LogBlueprintUserMessages: 4.882
+[2015.05.26-05.49.10:525][246]LogBlueprintUserMessages: 4.094
+[2015.05.26-05.49.10:542][247]LogBlueprintUserMessages: 3.622
+[2015.05.26-05.49.10:559][248]LogBlueprintUserMessages: 3.622
+[2015.05.26-05.49.10:575][249]LogBlueprintUserMessages: 3.15
+[2015.05.26-05.49.10:592][250]LogBlueprintUserMessages: 2.677
+[2015.05.26-05.49.10:609][251]LogBlueprintUserMessages: 2.205
+[2015.05.26-05.49.10:625][252]LogBlueprintUserMessages: 1.89
+[2015.05.26-05.49.10:728][253]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003A42C83EC0
+[2015.05.26-05.49.10:766][254]LogAkAudio: StopAll API called
+[2015.05.26-05.49.10:767][254]LogAkAudio: StopAll API called
+[2015.05.26-05.49.10:767][254]LogAkAudio: StopAll API called
+[2015.05.26-05.49.10:768][254]LogAkAudio: StopAll API called
+[2015.05.26-05.50.42:298][496]LogEditorTransaction: Undo Create Pin Link
+[2015.05.26-05.51.01:303][557]LogSavePackage: Save=134.056519ms
+[2015.05.26-05.51.01:303][557]LogSavePackage: Moving '../../../../../Unreal Projects/Sandbox/Saved/Minimal_DefaultD5F92057466800C923C233BE6A2CB16F.tmp' to '../../../../../Unreal Projects/Sandbox/Content/StarterContent/Maps/Minimal_Default.umap'
+[2015.05.26-05.51.01:341][557]LogFileHelpers: Saving map 'Minimal_Default' took 0.478
+[2015.05.26-05.51.01:346][557]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/SandboxMode" FILE="../../../../../Unreal Projects/Sandbox/Content/Blueprints/SandboxMode.uasset" SILENT=true
+[2015.05.26-05.51.01:396][557]LogSavePackage: Save=18.673815ms
+[2015.05.26-05.51.01:397][557]LogSavePackage: Moving '../../../../../Unreal Projects/Sandbox/Saved/SandboxMode74DFA30E4ADE65CE1920FA8E245A1699.tmp' to '../../../../../Unreal Projects/Sandbox/Content/Blueprints/SandboxMode.uasset'
+[2015.05.26-05.51.01:410][557]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LightController_Blueprint" FILE="../../../../../Unreal Projects/Sandbox/Content/LightController_Blueprint.uasset" SILENT=true
+[2015.05.26-05.51.01:477][557]LogSavePackage: Save=63.282513ms
+[2015.05.26-05.51.01:478][557]LogSavePackage: Moving '../../../../../Unreal Projects/Sandbox/Saved/LightController_BlueprintCE6459574C7856E673B5E389D1C42DD9.tmp' to '../../../../../Unreal Projects/Sandbox/Content/LightController_Blueprint.uasset'
+[2015.05.26-05.51.02:634][625]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.05.26-05.51.02:639][625]LogPlayLevel: [PIE] Compiling SandboxMode before PIE...
+[2015.05.26-05.51.02:734][625]LogPlayLevel: [PIE] Compiling LightController_Blueprint before PIE...
+[2015.05.26-05.51.02:825][625]LogPlayLevel: [PIE] Compiling CallbackListener_Logic before PIE...
+[2015.05.26-05.51.02:915][625]LogPlayLevel: PIE:  Blueprint regeneration took 281 ms (3 blueprints)
+[2015.05.26-05.51.02:916][625]PIE: New page: PIE session: Minimal_Default (May 25, 2015, 3:51:02 PM)
+[2015.05.26-05.51.02:922][625]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005454s)
+[2015.05.26-05.51.02:925][625]LogPlayLevel: PIE: World Init took: (0.002445s)
+[2015.05.26-05.51.02:925][625]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.008705s)
+[2015.05.26-05.51.02:959][625]LogWorld: Game class is 'SandboxMode_C'
+[2015.05.26-05.51.02:962][625]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.05.26-05.51.02:970][625]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2015.05.25-22.51.02
+[2015.05.26-05.51.02:971][625]LogWorld: Bringing up level for play took: 0.007868
+[2015.05.26-05.51.02:977][625]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 1.185
+[2015.05.26-05.51.03:095][625]LogAkAudio: StopAll API called
+[2015.05.26-05.51.03:095][625]LogAkAudio: StopAll API called
+[2015.05.26-05.51.03:096][625]LogAkAudio: StopAll API called
+[2015.05.26-05.51.03:096][625]LogAkAudio: StopAll API called
+[2015.05.26-05.51.03:096][625]LogAkAudio: StopAll API called
+[2015.05.26-05.51.14:022][270]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003A4B2A02C0
+[2015.05.26-05.51.14:057][271]LogAkAudio: StopAll API called
+[2015.05.26-05.51.14:058][271]LogAkAudio: StopAll API called
+[2015.05.26-05.51.14:058][271]LogAkAudio: StopAll API called
+[2015.05.26-05.51.14:058][271]LogAkAudio: StopAll API called
+[2015.05.26-05.51.37:585][646]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.05.26-05.51.37:599][646]LogPlayLevel: [PIE] Compiling LightController_Blueprint before PIE...
+[2015.05.26-05.51.37:696][646]LogPlayLevel: PIE:  Blueprint regeneration took 111 ms (1 blueprints)
+[2015.05.26-05.51.37:697][646]PIE: New page: PIE session: Minimal_Default (May 25, 2015, 3:51:37 PM)
+[2015.05.26-05.51.37:703][646]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004924s)
+[2015.05.26-05.51.37:705][646]LogPlayLevel: PIE: World Init took: (0.001778s)
+[2015.05.26-05.51.37:705][646]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.007683s)
+[2015.05.26-05.51.37:742][646]LogWorld: Game class is 'SandboxMode_C'
+[2015.05.26-05.51.37:745][646]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.05.26-05.51.37:753][646]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2015.05.25-22.51.37
+[2015.05.26-05.51.37:755][646]LogWorld: Bringing up level for play took: 0.007802
+[2015.05.26-05.51.37:762][646]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.03
+[2015.05.26-05.51.37:831][646]LogAkAudio: StopAll API called
+[2015.05.26-05.51.37:831][646]LogAkAudio: StopAll API called
+[2015.05.26-05.51.44:532][ 39]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003A4CC47CE0
+[2015.05.26-05.51.44:566][ 40]LogAkAudio: StopAll API called
+[2015.05.26-05.51.44:566][ 40]LogAkAudio: StopAll API called
+[2015.05.26-05.51.44:567][ 40]LogAkAudio: StopAll API called
+[2015.05.26-05.51.44:567][ 40]LogAkAudio: StopAll API called
+[2015.05.26-05.52.03:120][107]LogEditorViewport: Clicking on Actor (LMB): LightController_Blueprint_C (LightController_Blueprint)
+[2015.05.26-05.52.09:647][493]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.26-05.52.09:648][493]PIE: New page: PIE session: Minimal_Default (May 25, 2015, 3:52:09 PM)
+[2015.05.26-05.52.09:656][493]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006316s)
+[2015.05.26-05.52.09:661][493]LogPlayLevel: PIE: World Init took: (0.004419s)
+[2015.05.26-05.52.09:661][493]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.011864s)
+[2015.05.26-05.52.09:697][493]LogWorld: Game class is 'SandboxMode_C'
+[2015.05.26-05.52.09:701][493]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.05.26-05.52.09:710][493]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2015.05.25-22.52.09
+[2015.05.26-05.52.09:712][493]LogWorld: Bringing up level for play took: 0.010182
+[2015.05.26-05.52.09:717][493]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.075
+[2015.05.26-05.52.09:815][494]LogAkAudio: StopAll API called
+[2015.05.26-05.52.09:816][494]LogAkAudio: StopAll API called
+[2015.05.26-05.52.32:407][838]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003A4ED03740
+[2015.05.26-05.52.32:439][839]LogAkAudio: StopAll API called
+[2015.05.26-05.52.32:440][839]LogAkAudio: StopAll API called
+[2015.05.26-05.52.32:440][839]LogAkAudio: StopAll API called
+[2015.05.26-05.52.32:441][839]LogAkAudio: StopAll API called
+[2015.05.26-05.52.58:478][339]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.05.26-05.52.58:492][339]LogPlayLevel: [PIE] Compiling LightController_Blueprint before PIE...
+[2015.05.26-05.52.58:607][339]LogPlayLevel: PIE:  Blueprint regeneration took 128 ms (1 blueprints)
+[2015.05.26-05.52.58:607][339]PIE: New page: PIE session: Minimal_Default (May 25, 2015, 3:52:58 PM)
+[2015.05.26-05.52.58:614][339]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005681s)
+[2015.05.26-05.52.58:617][339]LogPlayLevel: PIE: World Init took: (0.002740s)
+[2015.05.26-05.52.58:617][339]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.009291s)
+[2015.05.26-05.52.58:654][339]LogWorld: Game class is 'SandboxMode_C'
+[2015.05.26-05.52.58:657][339]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.05.26-05.52.58:665][339]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2015.05.25-22.52.58
+[2015.05.26-05.52.58:666][339]LogWorld: Bringing up level for play took: 0.007993
+[2015.05.26-05.52.58:671][339]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.879
+[2015.05.26-05.52.58:728][340]LogAkAudio: StopAll API called
+[2015.05.26-05.52.58:729][340]LogAkAudio: StopAll API called
+[2015.05.26-05.53.38:480][716]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003A3BCA1940
+[2015.05.26-05.53.38:507][717]LogAkAudio: StopAll API called
+[2015.05.26-05.53.38:508][717]LogAkAudio: StopAll API called
+[2015.05.26-05.53.38:508][717]LogAkAudio: StopAll API called
+[2015.05.26-05.53.38:508][717]LogAkAudio: StopAll API called
+[2015.05.26-05.54.49:897][315]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.26-05.54.49:898][315]PIE: New page: PIE session: Minimal_Default (May 25, 2015, 3:54:49 PM)
+[2015.05.26-05.54.49:904][315]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005262s)
+[2015.05.26-05.54.49:907][315]LogPlayLevel: PIE: World Init took: (0.002915s)
+[2015.05.26-05.54.49:908][315]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.009135s)
+[2015.05.26-05.54.49:946][315]LogWorld: Game class is 'SandboxMode_C'
+[2015.05.26-05.54.49:949][315]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.05.26-05.54.49:956][315]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2015.05.25-22.54.49
+[2015.05.26-05.54.49:957][315]LogWorld: Bringing up level for play took: 0.007837
+[2015.05.26-05.54.49:965][315]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.172
+[2015.05.26-05.54.50:005][315]LogAkAudio: StopAll API called
+[2015.05.26-05.54.50:006][315]LogAkAudio: StopAll API called
+[2015.05.26-05.55.27:045][454]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003A739EE5C0
+[2015.05.26-05.55.27:085][455]LogAkAudio: StopAll API called
+[2015.05.26-05.55.27:086][455]LogAkAudio: StopAll API called
+[2015.05.26-05.55.27:086][455]LogAkAudio: StopAll API called
+[2015.05.26-05.55.27:086][455]LogAkAudio: StopAll API called
+[2015.05.26-05.56.09:850][  7]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.26-05.56.09:851][  7]PIE: New page: PIE session: Minimal_Default (May 25, 2015, 3:56:09 PM)
+[2015.05.26-05.56.09:857][  7]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004942s)
+[2015.05.26-05.56.09:859][  7]LogPlayLevel: PIE: World Init took: (0.001761s)
+[2015.05.26-05.56.09:859][  7]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.007794s)
+[2015.05.26-05.56.09:899][  7]LogWorld: Game class is 'SandboxMode_C'
+[2015.05.26-05.56.09:902][  7]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.05.26-05.56.09:910][  7]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2015.05.25-22.56.09
+[2015.05.26-05.56.09:912][  7]LogWorld: Bringing up level for play took: 0.008815
+[2015.05.26-05.56.09:919][  7]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.127
+[2015.05.26-05.56.09:961][  7]LogAkAudio: StopAll API called
+[2015.05.26-05.56.09:961][  7]LogAkAudio: StopAll API called
+[2015.05.26-05.56.54:265][643]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003A760DAC00
+[2015.05.26-05.56.54:304][644]LogAkAudio: StopAll API called
+[2015.05.26-05.56.54:305][644]LogAkAudio: StopAll API called
+[2015.05.26-05.56.54:305][644]LogAkAudio: StopAll API called
+[2015.05.26-05.56.54:306][644]LogAkAudio: StopAll API called
+[2015.05.26-05.57.15:893][926]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.26-05.57.15:894][926]PIE: New page: PIE session: Minimal_Default (May 25, 2015, 3:57:15 PM)
+[2015.05.26-05.57.15:900][926]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005076s)
+[2015.05.26-05.57.15:902][926]LogPlayLevel: PIE: World Init took: (0.002020s)
+[2015.05.26-05.57.15:903][926]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.008215s)
+[2015.05.26-05.57.15:943][926]LogWorld: Game class is 'SandboxMode_C'
+[2015.05.26-05.57.15:946][926]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.05.26-05.57.15:954][926]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2015.05.25-22.57.15
+[2015.05.26-05.57.15:955][926]LogWorld: Bringing up level for play took: 0.008259
+[2015.05.26-05.57.15:962][926]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.17
+[2015.05.26-05.57.15:999][926]LogAkAudio: StopAll API called
+[2015.05.26-05.57.16:000][926]LogAkAudio: StopAll API called
+[2015.05.26-05.57.54:259][202]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003A0A3B2AC0
+[2015.05.26-05.57.54:296][203]LogAkAudio: StopAll API called
+[2015.05.26-05.57.54:297][203]LogAkAudio: StopAll API called
+[2015.05.26-05.57.54:297][203]LogAkAudio: StopAll API called
+[2015.05.26-05.57.54:297][203]LogAkAudio: StopAll API called
+[2015.05.26-06.04.22:341][413]LogSavePackage: Save=113.790283ms
+[2015.05.26-06.04.22:341][413]LogSavePackage: Moving '../../../../../Unreal Projects/Sandbox/Saved/Minimal_Default_Auto4100C027F462086BD44283C9ADC0F4F4C.tmp' to '../../../../../Unreal Projects/Sandbox/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto4.umap'
+[2015.05.26-06.04.22:353][413]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.237
+[2015.05.26-06.04.22:353][413]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.237
+[2015.05.26-06.04.22:389][413]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/LightController_Blueprint] ([1] browsable assets)...
+[2015.05.26-06.04.22:389][413]OBJ SavePackage: Finished generating thumbnails for package [/Game/LightController_Blueprint]
+[2015.05.26-06.04.22:404][413]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LightController_Blueprint" FILE="../../../../../Unreal Projects/Sandbox/Saved/Autosaves/Game/LightController_Blueprint_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2015.05.26-06.04.22:631][413]LogSavePackage: Save=189.279953ms
+[2015.05.26-06.04.22:633][413]LogSavePackage: Moving '../../../../../Unreal Projects/Sandbox/Saved/LightController_Blueprint_Auto4FD7C97ED4F59CEE617796E99B9E91509.tmp' to '../../../../../Unreal Projects/Sandbox/Saved/Autosaves/Game/LightController_Blueprint_Auto4.uasset'
+[2015.05.26-06.04.22:641][413]LogFileHelpers: Auto-saving content packages took 0.288
+[2015.05.26-06.15.57:515][542]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.26-06.15.57:516][542]PIE: New page: PIE session: Minimal_Default (May 25, 2015, 4:15:57 PM)
+[2015.05.26-06.15.57:523][542]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005618s)
+[2015.05.26-06.15.57:526][542]LogPlayLevel: PIE: World Init took: (0.002686s)
+[2015.05.26-06.15.57:527][542]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.009721s)
+[2015.05.26-06.15.57:573][542]LogWorld: Game class is 'SandboxMode_C'
+[2015.05.26-06.15.57:577][542]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.05.26-06.15.57:586][542]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2015.05.25-23.15.57
+[2015.05.26-06.15.57:588][542]LogWorld: Bringing up level for play took: 0.010707
+[2015.05.26-06.15.57:597][542]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.195
+[2015.05.26-06.15.57:640][542]LogAkAudio: StopAll API called
+[2015.05.26-06.15.57:640][542]LogAkAudio: StopAll API called
+[2015.05.26-06.16.42:350][198]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003A760D9BC0
+[2015.05.26-06.16.42:384][199]LogAkAudio: StopAll API called
+[2015.05.26-06.16.42:385][199]LogAkAudio: StopAll API called
+[2015.05.26-06.16.42:385][199]LogAkAudio: StopAll API called
+[2015.05.26-06.16.42:386][199]LogAkAudio: StopAll API called
+[2015.05.26-06.18.22:336][146]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.26-06.18.22:337][146]PIE: New page: PIE session: Minimal_Default (May 25, 2015, 4:18:22 PM)
+[2015.05.26-06.18.22:343][146]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004843s)
+[2015.05.26-06.18.22:344][146]LogPlayLevel: PIE: World Init took: (0.001095s)
+[2015.05.26-06.18.22:345][146]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.006983s)
+[2015.05.26-06.18.22:386][146]LogWorld: Game class is 'SandboxMode_C'
+[2015.05.26-06.18.22:389][146]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.05.26-06.18.22:396][146]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2015.05.25-23.18.22
+[2015.05.26-06.18.22:399][146]LogWorld: Bringing up level for play took: 0.009162
+[2015.05.26-06.18.22:407][146]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.615
+[2015.05.26-06.18.22:449][146]LogAkAudio: StopAll API called
+[2015.05.26-06.18.22:450][146]LogAkAudio: StopAll API called
+[2015.05.26-06.19.04:616][653]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003A760D8180
+[2015.05.26-06.19.04:649][654]LogAkAudio: StopAll API called
+[2015.05.26-06.19.04:650][654]LogAkAudio: StopAll API called
+[2015.05.26-06.19.04:650][654]LogAkAudio: StopAll API called
+[2015.05.26-06.19.04:651][654]LogAkAudio: StopAll API called
+[2015.05.26-06.31.41:245][118]LogSavePackage: Save=133.060425ms
+[2015.05.26-06.31.41:246][118]LogSavePackage: Moving '../../../../../Unreal Projects/Sandbox/Saved/Minimal_DefaultE952ECEE4515016A50E07BA3F1C04BF8.tmp' to '../../../../../Unreal Projects/Sandbox/Content/StarterContent/Maps/Minimal_Default.umap'
+[2015.05.26-06.31.41:302][118]LogFileHelpers: Saving map 'Minimal_Default' took 0.473
+[2015.05.26-06.31.41:307][118]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LightController_Blueprint" FILE="../../../../../Unreal Projects/Sandbox/Content/LightController_Blueprint.uasset" SILENT=true
+[2015.05.26-06.31.41:406][118]LogSavePackage: Save=67.684113ms
+[2015.05.26-06.31.41:407][118]LogSavePackage: Moving '../../../../../Unreal Projects/Sandbox/Saved/LightController_BlueprintD40A63794C29A7048C45EDA09D08716D.tmp' to '../../../../../Unreal Projects/Sandbox/Content/LightController_Blueprint.uasset'
+[2015.05.26-06.31.42:703][151]LogAkAudio: StopAll API called
+[2015.05.26-06.31.42:703][151]LogAkAudio: StopAll API called
+[2015.05.26-06.31.42:704][151]LogAkAudio: StopAll API called
+[2015.05.26-06.31.42:704][151]LogAkAudio: StopAll API called
+[2015.05.26-06.31.42:705][151]Cmd: QUIT_EDITOR
+[2015.05.26-06.31.42:928][151]LogInit: Audiokinetic Audio Device terminated.
+[2015.05.26-06.31.43:118][151]LogExit: Preparing to exit.
+[2015.05.26-06.31.44:164][151]LogExit: Editor shut down
+[2015.05.26-06.31.44:165][151]LogExit: Transaction tracking system shut down
+[2015.05.26-06.31.44:167][151]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003A71DE28E0
+[2015.05.26-06.31.44:168][151]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003A06BD9F80
+[2015.05.26-06.31.44:169][151]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003A0A3B1620
+[2015.05.26-06.31.44:169][151]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003A0BB15EE0
+[2015.05.26-06.31.44:170][151]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003A0BB15F80
+[2015.05.26-06.31.44:171][151]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003A3CD0D3A0
+[2015.05.26-06.31.44:666][151]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003A42559B20
+[2015.05.26-06.31.44:667][151]LogExit: Object subsystem successfully closed.
+[2015.05.26-06.31.45:027][151]LogModuleManager: Shutting down and abandoning module CrashTracker (178)
+[2015.05.26-06.31.45:028][151]LogModuleManager: Shutting down and abandoning module SuperSearch (177)
+[2015.05.26-06.31.45:028][151]LogModuleManager: Shutting down and abandoning module SceneOutliner (176)
+[2015.05.26-06.31.45:029][151]LogModuleManager: Shutting down and abandoning module EditorWidgets (175)
+[2015.05.26-06.31.45:029][151]LogModuleManager: Shutting down and abandoning module CollectionManager (174)
+[2015.05.26-06.31.45:046][151]LogModuleManager: Shutting down and abandoning module StatsViewer (173)
+[2015.05.26-06.31.45:067][151]LogModuleManager: Shutting down and abandoning module FoliageEdit (172)
+[2015.05.26-06.31.45:068][151]LogModuleManager: Shutting down and abandoning module LandscapeEditor (171)
+[2015.05.26-06.31.45:068][151]LogModuleManager: Shutting down and abandoning module MeshPaint (170)
+[2015.05.26-06.31.45:069][151]LogModuleManager: Shutting down and abandoning module ActorPickerMode (169)
+[2015.05.26-06.31.45:069][151]LogModuleManager: Shutting down and abandoning module GeometryMode (168)
+[2015.05.26-06.31.45:070][151]LogModuleManager: Shutting down and abandoning module TextureAlignMode (167)
+[2015.05.26-06.31.45:070][151]LogModuleManager: Shutting down and abandoning module BspMode (166)
+[2015.05.26-06.31.45:070][151]LogModuleManager: Shutting down and abandoning module PlacementMode (165)
+[2015.05.26-06.31.45:070][151]LogModuleManager: Shutting down and abandoning module AutomationWorker (164)
+[2015.05.26-06.31.45:071][151]LogModuleManager: Shutting down and abandoning module CharacterAI (163)
+[2015.05.26-06.31.45:071][151]LogModuleManager: Shutting down and abandoning module SmartSnapping (162)
+[2015.05.26-06.31.45:071][151]LogModuleManager: Shutting down and abandoning module ViewportSnapping (161)
+[2015.05.26-06.31.45:071][151]LogModuleManager: Shutting down and abandoning module LogVisualizer (160)
+[2015.05.26-06.31.45:098][151]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (159)
+[2015.05.26-06.31.45:107][151]LogModuleManager: Shutting down and abandoning module IntroTutorials (158)
+[2015.05.26-06.31.45:139][151]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (157)
+[2015.05.26-06.31.45:139][151]LogModuleManager: Shutting down and abandoning module AkComponentVisualizers (156)
+[2015.05.26-06.31.45:140][151]LogModuleManager: Shutting down and abandoning module AudiokineticTools (155)
+[2015.05.26-06.31.45:140][151]LogModuleManager: Shutting down and abandoning module HardwareTargeting (154)
+[2015.05.26-06.31.45:141][151]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (153)
+[2015.05.26-06.31.45:141][151]LogModuleManager: Shutting down and abandoning module UndoHistory (152)
+[2015.05.26-06.31.45:141][151]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (151)
+[2015.05.26-06.31.45:142][151]LogModuleManager: Shutting down and abandoning module UserFeedback (150)
+[2015.05.26-06.31.45:142][151]LogModuleManager: Shutting down and abandoning module XmlParser (149)
+[2015.05.26-06.31.45:154][151]LogModuleManager: Shutting down and abandoning module Blutility (148)
+[2015.05.26-06.31.45:154][151]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (147)
+[2015.05.26-06.31.45:155][151]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (146)
+[2015.05.26-06.31.45:155][151]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (145)
+[2015.05.26-06.31.45:827][151]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (144)
+[2015.05.26-06.31.45:827][151]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (143)
+[2015.05.26-06.31.45:828][151]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (142)
+[2015.05.26-06.31.45:828][151]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (141)
+[2015.05.26-06.31.45:829][151]LogModuleManager: Shutting down and abandoning module InputBindingEditor (140)
+[2015.05.26-06.31.45:860][151]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (139)
+[2015.05.26-06.31.45:860][151]LogModuleManager: Shutting down and abandoning module SettingsEditor (138)
+[2015.05.26-06.31.45:874][151]LogModuleManager: Shutting down and abandoning module ProjectLauncher (137)
+[2015.05.26-06.31.45:874][151]LogModuleManager: Shutting down and abandoning module SessionFrontend (136)
+[2015.05.26-06.31.45:875][151]LogModuleManager: Shutting down and abandoning module ProfilerClient (135)
+[2015.05.26-06.31.45:883][151]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (134)
+[2015.05.26-06.31.45:883][151]LogModuleManager: Shutting down and abandoning module DeviceManager (133)
+[2015.05.26-06.31.45:884][151]LogModuleManager: Shutting down and abandoning module AutomationController (132)
+[2015.05.26-06.31.45:893][151]LogModuleManager: Shutting down and abandoning module AutomationWindow (131)
+[2015.05.26-06.31.45:894][151]LogModuleManager: Shutting down and abandoning module Layers (130)
+[2015.05.26-06.31.45:901][151]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (129)
+[2015.05.26-06.31.45:901][151]LogModuleManager: Shutting down and abandoning module DetailCustomizations (128)
+[2015.05.26-06.31.45:902][151]LogModuleManager: Shutting down and abandoning module PackagesDialog (127)
+[2015.05.26-06.31.45:902][151]LogModuleManager: Shutting down and abandoning module AssetRegistry (126)
+[2015.05.26-06.31.46:033][151]LogModuleManager: Shutting down and abandoning module Persona (125)
+[2015.05.26-06.31.46:034][151]LogModuleManager: Shutting down and abandoning module SlateReflector (124)
+[2015.05.26-06.31.46:035][151]LogModuleManager: Shutting down and abandoning module LevelEditor (123)
+[2015.05.26-06.31.46:037][151]LogModuleManager: Shutting down and abandoning module Kismet (122)
+[2015.05.26-06.31.46:037][151]LogModuleManager: Shutting down and abandoning module GraphEditor (121)
+[2015.05.26-06.31.46:038][151]LogModuleManager: Shutting down and abandoning module ClassViewer (120)
+[2015.05.26-06.31.46:038][151]LogModuleManager: Shutting down and abandoning module Toolbox (119)
+[2015.05.26-06.31.46:039][151]LogModuleManager: Shutting down and abandoning module ModuleUI (118)
+[2015.05.26-06.31.46:059][151]LogModuleManager: Shutting down and abandoning module MovieSceneTools (117)
+[2015.05.26-06.31.46:095][151]LogModuleManager: Shutting down and abandoning module OutputLog (116)
+[2015.05.26-06.31.46:095][151]LogModuleManager: Shutting down and abandoning module GammaUI (115)
+[2015.05.26-06.31.46:114][151]LogModuleManager: Shutting down and abandoning module Documentation (114)
+[2015.05.26-06.31.46:114][151]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (113)
+[2015.05.26-06.31.46:115][151]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (112)
+[2015.05.26-06.31.46:120][151]LogModuleManager: Shutting down and abandoning module HTTP (111)
+[2015.05.26-06.31.46:120][151]LogModuleManager: Shutting down and abandoning module AnalyticsET (110)
+[2015.05.26-06.31.46:121][151]LogModuleManager: Shutting down and abandoning module Analytics (109)
+[2015.05.26-06.31.46:121][151]LogModuleManager: Shutting down and abandoning module AITestSuite (108)
+[2015.05.26-06.31.46:130][151]LogModuleManager: Shutting down and abandoning module GameplayDebugger (107)
+[2015.05.26-06.31.46:131][151]LogModuleManager: Shutting down and abandoning module AIModule (106)
+[2015.05.26-06.31.46:132][151]LogModuleManager: Shutting down and abandoning module XAudio2 (105)
+[2015.05.26-06.31.46:132][151]LogModuleManager: Shutting down and abandoning module AkAudio (104)
+[2015.05.26-06.31.46:133][151]LogModuleManager: Shutting down and abandoning module ProfilerService (103)
+[2015.05.26-06.31.46:263][151]LogModuleManager: Shutting down and abandoning module TaskGraph (102)
+[2015.05.26-06.31.46:279][151]LogModuleManager: Shutting down and abandoning module SlateRemote (101)
+[2015.05.26-06.31.46:280][151]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (100)
+[2015.05.26-06.31.46:281][151]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (99)
+[2015.05.26-06.31.46:281][151]LogModuleManager: Shutting down and abandoning module CableComponent (98)
+[2015.05.26-06.31.46:281][151]LogModuleManager: Shutting down and abandoning module MessagingDebugger (97)
+[2015.05.26-06.31.46:282][151]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (96)
+[2015.05.26-06.31.46:282][151]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (95)
+[2015.05.26-06.31.46:282][151]LogModuleManager: Shutting down and abandoning module PluginsEditor (94)
+[2015.05.26-06.31.46:283][151]LogModuleManager: Shutting down and abandoning module MainFrame (93)
+[2015.05.26-06.31.46:283][151]LogModuleManager: Shutting down and abandoning module EpicSurvey (92)
+[2015.05.26-06.31.46:284][151]LogModuleManager: Shutting down and abandoning module DesktopPlatform (91)
+[2015.05.26-06.31.46:310][151]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (90)
+[2015.05.26-06.31.46:312][151]LogModuleManager: Shutting down and abandoning module HotReload (89)
+[2015.05.26-06.31.46:322][151]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (88)
+[2015.05.26-06.31.46:323][151]LogModuleManager: Shutting down and abandoning module UObjectPlugin (87)
+[2015.05.26-06.31.46:323][151]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (86)
+[2015.05.26-06.31.46:352][151]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (85)
+[2015.05.26-06.31.46:369][151]LogModuleManager: Shutting down and abandoning module SourceControl (84)
+[2015.05.26-06.31.46:386][151]LogModuleManager: Shutting down and abandoning module GitSourceControl (83)
+[2015.05.26-06.31.46:386][151]LogModuleManager: Shutting down and abandoning module BlankPlugin (82)
+[2015.05.26-06.31.46:387][151]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (81)
+[2015.05.26-06.31.46:387][151]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (80)
+[2015.05.26-06.31.46:388][151]LogModuleManager: Shutting down and abandoning module ContentBrowser (79)
+[2015.05.26-06.31.46:389][151]LogModuleManager: Shutting down and abandoning module Paper2DEditor (78)
+[2015.05.26-06.31.46:389][151]LogModuleManager: Shutting down and abandoning module Sandbox (77)
+[2015.05.26-06.31.46:390][151]LogModuleManager: Shutting down and abandoning module ScriptPlugin (76)
+[2015.05.26-06.31.46:390][151]LogModuleManager: Shutting down and abandoning module UdpMessaging (75)
+[2015.05.26-06.31.46:491][151]LogModuleManager: Shutting down and abandoning module Paper2D (74)
+[2015.05.26-06.31.46:514][151]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (73)
+[2015.05.26-06.31.46:517][151]LogModuleManager: Shutting down and abandoning module Media (72)
+[2015.05.26-06.31.46:518][151]LogModuleManager: Shutting down and abandoning module WmfMedia (71)
+[2015.05.26-06.31.46:533][151]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (70)
+[2015.05.26-06.31.46:533][151]LogModuleManager: Shutting down and abandoning module PropertyEditor (69)
+[2015.05.26-06.31.46:533][151]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (68)
+[2015.05.26-06.31.46:607][151]LogModuleManager: Shutting down and abandoning module FunctionalTesting (67)
+[2015.05.26-06.31.46:641][151]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (66)
+[2015.05.26-06.31.46:678][151]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (65)
+[2015.05.26-06.31.46:678][151]LogModuleManager: Shutting down and abandoning module MessageLog (64)
+[2015.05.26-06.31.46:679][151]LogModuleManager: Shutting down and abandoning module Sequencer (63)
+[2015.05.26-06.31.46:693][151]LogModuleManager: Shutting down and abandoning module AssetTools (62)
+[2015.05.26-06.31.46:762][151]LogModuleManager: Shutting down and abandoning module UMGEditor (61)
+[2015.05.26-06.31.46:829][151]LogModuleManager: Shutting down and abandoning module UMG (60)
+[2015.05.26-06.31.46:862][151]LogModuleManager: Shutting down and abandoning module Slate (59)
+[2015.05.26-06.31.46:862][151]LogModuleManager: Shutting down and abandoning module EditorStyle (58)
+[2015.05.26-06.31.46:871][151]LogModuleManager: Shutting down and abandoning module SessionServices (57)
+[2015.05.26-06.31.46:871][151]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (56)
+[2015.05.26-06.31.46:872][151]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (55)
+[2015.05.26-06.31.46:873][151]LogModuleManager: Shutting down and abandoning module Networking (53)
+[2015.05.26-06.31.46:873][151]LogModuleManager: Shutting down and abandoning module Core (52)
+[2015.05.26-06.31.46:874][151]LogModuleManager: Shutting down and abandoning module KismetCompiler (51)
+[2015.05.26-06.31.46:874][151]LogModuleManager: Shutting down and abandoning module PhysXFormats (50)
+[2015.05.26-06.31.46:874][151]LogModuleManager: Shutting down and abandoning module MeshUtilities (49)
+[2015.05.26-06.31.46:886][151]LogModuleManager: Shutting down and abandoning module DerivedDataCache (48)
+[2015.05.26-06.31.46:928][151]LogDerivedDataCache: Shutdown
+[2015.05.26-06.31.46:928][151]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (47)
+[2015.05.26-06.31.46:935][151]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (46)
+[2015.05.26-06.31.46:948][151]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (45)
+[2015.05.26-06.31.46:963][151]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (44)
+[2015.05.26-06.31.46:964][151]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (43)
+[2015.05.26-06.31.46:983][151]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (42)
+[2015.05.26-06.31.46:995][151]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (41)
+[2015.05.26-06.31.47:007][151]LogModuleManager: Shutting down and abandoning module ImageWrapper (40)
+[2015.05.26-06.31.47:007][151]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (39)
+[2015.05.26-06.31.47:025][151]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (38)
+[2015.05.26-06.31.47:025][151]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (37)
+[2015.05.26-06.31.47:058][151]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (36)
+[2015.05.26-06.31.47:058][151]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (35)
+[2015.05.26-06.31.47:059][151]LogModuleManager: Shutting down and abandoning module Messaging (34)
+[2015.05.26-06.31.47:059][151]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (33)
+[2015.05.26-06.31.47:060][151]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (32)
+[2015.05.26-06.31.47:060][151]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
+[2015.05.26-06.31.47:061][151]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
+[2015.05.26-06.31.47:061][151]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
+[2015.05.26-06.31.47:061][151]LogModuleManager: Shutting down and abandoning module Android_ES31TargetPlatform (28)
+[2015.05.26-06.31.47:061][151]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
+[2015.05.26-06.31.47:062][151]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
+[2015.05.26-06.31.47:062][151]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
+[2015.05.26-06.31.47:062][151]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2015.05.26-06.31.47:084][151]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2015.05.26-06.31.47:085][151]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2015.05.26-06.31.47:085][151]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2015.05.26-06.31.47:086][151]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.05.26-06.31.47:086][151]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.05.26-06.31.47:086][151]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.05.26-06.31.47:087][151]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.05.26-06.31.47:087][151]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2015.05.26-06.31.47:087][151]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.05.26-06.31.47:088][151]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.05.26-06.31.47:088][151]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.05.26-06.31.47:088][151]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.05.26-06.31.47:089][151]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.05.26-06.31.47:114][151]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.05.26-06.31.47:115][151]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.05.26-06.31.47:115][151]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.05.26-06.31.47:116][151]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.05.26-06.31.47:116][151]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.05.26-06.31.47:116][151]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.05.26-06.31.47:145][151]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.05.26-06.31.47:145][151]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.05.26-06.31.47:182][151]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.05.26-06.31.47:244][151]LogExit: Exiting.
+[2015.05.26-06.31.47:249][151]Log file closed, 05/25/15 23:31:47

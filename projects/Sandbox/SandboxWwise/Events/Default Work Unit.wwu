@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{DAC60A41-41C7-4026-855B-B92BAACBC4A3}" SchemaVersion="69">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{DAC60A41-41C7-4026-855B-B92BAACBC4A3}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="TestStart" ID="{B818208D-D522-45E4-98D4-50CD8497AEB2}">
+					<ChildrenList>
+						<Action Name="Play" ID="{D12653EA-E9B0-4B25-A30A-AF64CD0E40F8}" ShortID="963406937" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{3A28D507-1C5D-4CBB-B13B-4DCCAC39DDEA}" Global="false">
+									<ObjectRef Name="Test" ID="{8FD6E882-B5E9-4739-895B-F6F790F6A91E}" WorkUnitID="{97274FC8-9A0A-409F-9319-233D275DB572}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Play" ID="{49A03E59-5755-45CC-84DA-C821758B298B}" ShortID="898634104" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{073DD3B0-5E0E-4EB0-B31C-CBC63D36E977}" Global="false">
+									<ObjectRef Name="Test_MIDI" ID="{38EFDE15-3E9C-4915-85E6-AE9D8C94EF2C}" WorkUnitID="{F4F70BD1-94BB-4CC1-8DE0-1316EE66A271}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

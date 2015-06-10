@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F4F70BD1-94BB-4CC1-8DE0-1316EE66A271}" SchemaVersion="69">
+	<InteractiveMusic>
+		<WorkUnit Name="Default Work Unit" ID="{F4F70BD1-94BB-4CC1-8DE0-1316EE66A271}" PersistMode="Standalone">
+			<ChildrenList>
+				<MusicPlaylistContainer Name="Test_MIDI" ID="{38EFDE15-3E9C-4915-85E6-AE9D8C94EF2C}" ShortID="194955413">
+					<PropertyList>
+						<Property Name="MidiTempoSource" Type="int16" Value="1"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5AF7B593-8CC8-4654-AB0A-E7F6810FC63B}"/>
+						</Reference>
+						<Reference Name="MidiTarget">
+							<ObjectRef Name="Ghost_MIDI" ID="{D90E10D8-645E-4708-9AB1-A8580DB0F0BD}" WorkUnitID="{97274FC8-9A0A-409F-9319-233D275DB572}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D732CEE6-A53B-4AC9-8109-3391FEB779EF}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicSegment Name="Test_MIDI" ID="{F1C7D34E-8C50-4983-9EC0-1EB0DCCFE9D5}" ShortID="418598391">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="49500"/>
+								<Property Name="MidiTempoSource" Type="int16" Value="1"/>
+								<Property Name="Tempo" Type="Real64" Value="176.000045776367"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5AF7B593-8CC8-4654-AB0A-E7F6810FC63B}"/>
+								</Reference>
+								<Reference Name="MidiTarget">
+									<ObjectRef Name="Ghost_MIDI" ID="{D90E10D8-645E-4708-9AB1-A8580DB0F0BD}" WorkUnitID="{97274FC8-9A0A-409F-9319-233D275DB572}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D732CEE6-A53B-4AC9-8109-3391FEB779EF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Test_MIDI" ID="{8DEC247E-591E-4598-A79A-5844E7732BE3}" ShortID="192424224">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D732CEE6-A53B-4AC9-8109-3391FEB779EF}"/>
+										</Reference>
+									</ReferenceList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{044A157A-8A90-49A1-B08F-6302D1C95C4A}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{038028CC-DC32-40FC-87D0-9A90D93505DF}">
+											<ClipList>
+												<MusicClipMidi Name="Test_MIDI" ID="{070B7637-174A-4DDE-BBDB-810EB875D4B0}" ShortID="532961821">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="32000.0000000001"/>
+														<Property Name="MidiFileName" Type="string" Value="Test_MIDI.mid"/>
+													</PropertyList>
+												</MusicClipMidi>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{86FFAA43-FB99-4D8B-AAE4-5AD1BF54F961}"/>
+								<MusicCue Name="Exit Cue" ID="{DAC42BAD-F369-4F49-8903-E2B5F4001E5B}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="21825.278414307"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+					</ChildrenList>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{FA055B33-EA4F-4282-BB1A-44DBD8F3BD6C}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{65F2BB2C-404F-4617-A807-50A79F890E27}">
+									<TransitionInfo/>
+								</MusicTransition>
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+					<Playlist>
+						<MusicPlaylistItem Name="" ID="{290D7358-468A-439C-8F27-9258ED60546B}" ShortID="713113110">
+							<PropertyList>
+								<Property Name="LoopCount" Type="int16" Value="0"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicPlaylistItem Name="" ID="{474EA4EF-9CBD-487A-8091-252BBA4D75DB}" ShortID="781790999">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="Test_MIDI" ID="{F1C7D34E-8C50-4983-9EC0-1EB0DCCFE9D5}"/>
+								</MusicPlaylistItem>
+							</ChildrenList>
+						</MusicPlaylistItem>
+					</Playlist>
+				</MusicPlaylistContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</InteractiveMusic>
+</WwiseDocument>
